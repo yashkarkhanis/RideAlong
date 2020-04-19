@@ -1,0 +1,1846 @@
+[
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_2x_finish_flag.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_2x_finish_flag.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_directions_car_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_directions_car_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_check_off_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_check_off_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_check_off_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_check_off_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_activity_about.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_check_on_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_check_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_navigation_black_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_navigation_black_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_directions_car_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_directions_car_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_check_on_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_check_on_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_2x_turn_slight_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_2x_turn_slight_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_location_start_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_location_start_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_settings_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_settings_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_radio_off_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_radio_off_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_stop_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_stop_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_2x_turn_slight_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_2x_turn_slight_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_timer_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_timer_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_location_start_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_location_start_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_star_outline_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_star_outline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_location_searching_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_location_searching_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_address_entry.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/address_entry.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_2x_continue_on_street.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_2x_continue_on_street.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_activity_addresses.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/activity_addresses.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_turn_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_turn_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_directions_bike_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_directions_bike_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_keep_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_keep_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_trending_up_light_green_a700_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_trending_up_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_check_off_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_check_off_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_my_location_dark_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_my_location_dark_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_filter_center_focus_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_filter_center_focus_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_check_off_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_check_off_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_2x_turn_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_2x_turn_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_radio_off_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_radio_off_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_directions_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_directions_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_group_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_group_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_check_on_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_check_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_add_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_add_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_radio_on_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_radio_on_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_location_end_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_location_end_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_activity_register.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_radio_on_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_radio_on_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_directions_car_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_directions_car_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_timer_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_timer_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_map_black_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_map_black_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_check_off_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_check_off_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_space_bar_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_space_bar_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_directions_bike_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_directions_bike_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_keyboard_arrow_up_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_keyboard_arrow_up_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_clear_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_clear_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_more_vert_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_more_vert_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_keyboard_arrow_left_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_keyboard_arrow_left_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_radio_off_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_radio_off_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_keyboard_arrow_left_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_keyboard_arrow_left_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_check_on_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_check_on_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_2x_turn_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_2x_turn_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_directions_run_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_directions_run_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_group_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_group_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_check_on_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_check_on_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_radio_off_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_radio_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_check_off_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_check_off_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_share_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_share_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_finish_flag.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_finish_flag.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_cloud_download_black_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_cloud_download_black_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_share_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_share_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_roundabout.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_roundabout.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_add_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_add_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_check_on_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_check_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_directions_car_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_directions_car_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_turn_sharp_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_turn_sharp_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_more_vert_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_more_vert_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_pause_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_pause_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_filter_center_focus_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_filter_center_focus_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_space_bar_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_space_bar_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_my_location_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_my_location_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_location_start_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_location_start_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_directions_car_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_directions_car_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_radio_off_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_radio_off_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_check_on_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_check_on_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_roundabout.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_roundabout.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_2x_turn_slight_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_2x_turn_slight_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_directions_walk_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_directions_walk_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_turn_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_turn_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable_my_progress_bar.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable/my_progress_bar.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_navigation_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_navigation_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_location_start_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_location_start_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_map_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_map_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_star_outline_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_star_outline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_settings_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_settings_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_check_off_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_check_off_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_clear_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_clear_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_turn_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_turn_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_group_join_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_group_join_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_directions_bike_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_directions_bike_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_group_create_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_group_create_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_pause_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_pause_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_trending_up_light_green_a700_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_trending_up_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_check_off_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_check_off_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_directions_run_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_directions_run_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_directions_walk_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_directions_walk_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_radio_on_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_radio_on_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_stop_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_stop_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_navigation_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_navigation_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_check_on_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_check_on_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_turn_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_turn_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_remove_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_remove_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_finish_flag.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_finish_flag.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_location_end_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_location_end_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_3d_rotation_light_green_a700_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_3d_rotation_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_check_on_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_check_on_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_turn_sharp_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_turn_sharp_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_keyboard_arrow_down_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_keyboard_arrow_down_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_keep_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_keep_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_cloud_download_black_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_cloud_download_black_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_finish_flag.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_finish_flag.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_radio_on_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_radio_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_location_end_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_location_end_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_turn_sharp_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_turn_sharp_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_group_create_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_group_create_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_share_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_share_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_radio_on_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_radio_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_directions_bike_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_directions_bike_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_continue_on_street.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_continue_on_street.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_stop_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_stop_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_location_start_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_location_start_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_timer_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_timer_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_my_location_dark_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_my_location_dark_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_check_off_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_check_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_location_searching_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_location_searching_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_star_outline_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_star_outline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_radio_off_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_radio_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_2x_turn_slight_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_2x_turn_slight_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_icon_pocketmaps.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_icon_pocketmaps.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_turn_sharp_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_turn_sharp_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_roundabout.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_roundabout.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_location_end_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_location_end_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_map_side_bar.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/map_side_bar.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_space_bar_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_space_bar_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_map_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_map_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_remove_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_remove_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_add_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_add_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_more_vert_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_more_vert_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_activity_group_create.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/activity_group_create.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_2x_turn_sharp_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_2x_turn_sharp_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_stop_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_stop_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_map_nav_instruction_list.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/map_nav_instruction_list.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_roundabout.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_roundabout.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_search_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_search_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_directions_walk_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_directions_walk_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_location_end_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_location_end_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable_apptheme_btn_radio_holo_light.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable/apptheme_btn_radio_holo_light.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_turn_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_turn_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_location_searching_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_location_searching_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_check_on_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_check_on_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_map_black_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_map_black_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_pause_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_pause_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_directions_bike_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_directions_bike_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_navigation_black_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_navigation_black_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_keyboard_arrow_down_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_keyboard_arrow_down_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_directions_car_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_directions_car_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_turn_sharp_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_turn_sharp_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_finish_flag.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_finish_flag.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_turn_slight_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_turn_slight_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_turn_sharp_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_turn_sharp_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_map_black_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_map_black_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_navigation_black_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_navigation_black_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable_my_border.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable/my_border.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_location_end_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_location_end_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_group_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_group_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_stop_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_stop_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_trending_up_light_green_a700_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_trending_up_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_directions_bike_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_directions_bike_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable_custom_btn_text_color.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable/custom_btn_text_color.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_map_nav_settings_to.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/map_nav_settings_to.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_3d_rotation_light_green_a700_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_3d_rotation_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_turn_slight_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_turn_slight_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_2x_turn_slight_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_2x_turn_slight_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_turn_sharp_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_turn_sharp_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_check_off_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_check_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_location_start_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_location_start_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_directions_walk_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_directions_walk_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_2x_roundabout.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_2x_roundabout.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_directions_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_directions_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_2x_reached_via.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_2x_reached_via.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_2x_finish_flag.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_2x_finish_flag.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_icon_pocketmaps.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_icon_pocketmaps.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_activity_address_add.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/activity_address_add.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_2x_keep_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_2x_keep_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_search_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_search_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_directions_bike_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_directions_bike_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_keyboard_arrow_up_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_keyboard_arrow_up_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_reached_via.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_reached_via.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_play_arrow_light_green_a700_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_play_arrow_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_2x_turn_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_2x_turn_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_cloud_download_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_cloud_download_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_my_location_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_my_location_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_arrow_drop_down_white_18dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_arrow_drop_down_white_18dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_analytics_activity_type.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/analytics_activity_type.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_timer_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_timer_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_icon_pocketmaps.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_icon_pocketmaps.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_pause_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_pause_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_radio_on_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_radio_on_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/menu_menu_maps.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/menu/menu_maps.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_directions_walk_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_directions_walk_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_content_about.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/content_about.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_location_start_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_location_start_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_cloud_download_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_cloud_download_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_2x_continue_on_street.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_2x_continue_on_street.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_radio_off_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_radio_off_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_2x_turn_sharp_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_2x_turn_sharp_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_2x_continue_on_street.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_2x_continue_on_street.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_stop_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_stop_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_activity_map_content.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/activity_map_content.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_radio_on_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_radio_on_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_activity_analytics.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/activity_analytics.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_check_off_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_check_off_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_check_off_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_check_off_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_map_nav_settings.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/map_nav_settings.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_space_bar_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_space_bar_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_my_location_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_my_location_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_keyboard_arrow_up_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_keyboard_arrow_up_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_turn_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_turn_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_group_create_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_group_create_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_2x_turn_sharp_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_2x_turn_sharp_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_turn_sharp_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_turn_sharp_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_2x_finish_flag.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_2x_finish_flag.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_2x_roundabout.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_2x_roundabout.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_turn_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_turn_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_continue_on_street.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_continue_on_street.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_directions_run_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_directions_run_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_my_location_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_my_location_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_turn_slight_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_turn_slight_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_directions_car_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_directions_car_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_group_create_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_group_create_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_activity_text.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/activity_text.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_my_location_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_my_location_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_location_searching_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_location_searching_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_app_settings.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/app_settings.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_stop_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_stop_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_map_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_map_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_settings_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_settings_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_turn_slight_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_turn_slight_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_my_maps_item.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/my_maps_item.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_keyboard_arrow_down_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_keyboard_arrow_down_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_stop_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_stop_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_my_location_dark_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_my_location_dark_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/menu_menu_about.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/menu/menu_about.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_check_on_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_check_on_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_2x_turn_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_2x_turn_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_check_off_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_check_off_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_clear_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_clear_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_navigation_black_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_navigation_black_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_cloud_download_black_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_cloud_download_black_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_group_create_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_group_create_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_directions_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_directions_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_turn_slight_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_turn_slight_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_turn_slight_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_turn_slight_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_check_on_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_check_on_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_radio_on_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_radio_on_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_filter_center_focus_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_filter_center_focus_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_radio_off_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_radio_off_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_location_end_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_location_end_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_directions_walk_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_directions_walk_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_2x_turn_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_2x_turn_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_2x_finish_flag.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_2x_finish_flag.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_2x_turn_slight_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_2x_turn_slight_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_2x_turn_slight_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_2x_turn_slight_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/xml_analytics_global_configuration.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/xml/analytics_global_configuration.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_2x_turn_sharp_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_2x_turn_sharp_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_map_nav_top.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/map_nav_top.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_turn_slight_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_turn_slight_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_radio_on_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_radio_on_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_cloud_download_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_cloud_download_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_clear_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_clear_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_keyboard_arrow_left_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_keyboard_arrow_left_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_settings_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_settings_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_timer_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_timer_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_2x_turn_sharp_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_2x_turn_sharp_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable_my_action_bar_logo.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable/my_action_bar_logo.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_directions_bike_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_directions_bike_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_directions_walk_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_directions_walk_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_search_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_search_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_2x_turn_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_2x_turn_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_map_nav_instruction_item.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/map_nav_instruction_item.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_check_on_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_check_on_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_radio_off_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_radio_off_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_turn_sharp_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_turn_sharp_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_group_join_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_group_join_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_2x_reached_via.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_2x_reached_via.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_3d_rotation_light_green_a700_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_3d_rotation_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_2x_continue_on_street.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_2x_continue_on_street.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_location_end_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_location_end_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_play_arrow_light_green_a700_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_play_arrow_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_group_join_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_group_join_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_more_vert_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_more_vert_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_2x_reached_via.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_2x_reached_via.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_radio_off_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_radio_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_keyboard_arrow_up_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_keyboard_arrow_up_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_radio_off_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_radio_off_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_reached_via.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_reached_via.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_navigation_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_navigation_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_directions_bike_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_directions_bike_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_add_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_add_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_radio_on_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_radio_on_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_2x_turn_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_2x_turn_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable_custom_btn.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable/custom_btn.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_continue_on_street.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_continue_on_street.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_check_on_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_check_on_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_check_off_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_check_off_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_filter_center_focus_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_filter_center_focus_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_reached_via.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_reached_via.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_directions_walk_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_directions_walk_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_2x_turn_sharp_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_2x_turn_sharp_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_pause_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_pause_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_activity_latlon.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/activity_latlon.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_map_nav_settings_from.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/map_nav_settings_from.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_2x_turn_sharp_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_2x_turn_sharp_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_directions_car_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_directions_car_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_icon_pocketmaps.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_icon_pocketmaps.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_keyboard_arrow_left_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_keyboard_arrow_left_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_2x_turn_sharp_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_2x_turn_sharp_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable_apptheme_btn_check_holo_light.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable/apptheme_btn_check_holo_light.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_remove_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_remove_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_map_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_map_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_radio_off_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_radio_off_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_radio_on_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_radio_on_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_2x_roundabout.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_2x_roundabout.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_search_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_search_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_radio_on_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_radio_on_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_check_off_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_check_off_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_2x_turn_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_2x_turn_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_location_searching_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_location_searching_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_directions_car_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_directions_car_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_location_start_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_location_start_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_remove_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_remove_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_2x_roundabout.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_2x_roundabout.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_check_on_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_check_on_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_play_arrow_light_green_a700_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_play_arrow_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_keyboard_arrow_down_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_keyboard_arrow_down_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_arrow_drop_down_white_18dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_arrow_drop_down_white_18dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_radio_on_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_radio_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_share_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_share_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_finish_flag.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_finish_flag.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_2x_continue_on_street.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_2x_continue_on_street.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_radio_off_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_radio_off_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_2x_finish_flag.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_2x_finish_flag.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_activity_map.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/activity_map.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_space_bar_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_space_bar_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_3d_rotation_light_green_a700_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_3d_rotation_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_radio_off_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_radio_off_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_play_arrow_light_green_a700_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_play_arrow_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_map_nav_instruction.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/map_nav_instruction.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_directions_walk_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_directions_walk_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_add_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_add_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_cloud_download_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_cloud_download_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_map_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_map_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_navigation_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_navigation_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_radio_off_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_radio_off_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_roundabout.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_roundabout.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_my_location_dark_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_my_location_dark_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_directions_bike_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_directions_bike_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_2x_reached_via.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_2x_reached_via.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_my_location_dark_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_my_location_dark_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_trending_up_light_green_a700_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_trending_up_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_activity_download.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/activity_download.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_turn_sharp_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_turn_sharp_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_stop_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_stop_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_check_on_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_check_on_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_navigation_black_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_navigation_black_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_location_start_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_location_start_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_radio_off_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_radio_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_search_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_search_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_2x_turn_slight_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_2x_turn_slight_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_check_off_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_check_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_continue_on_street.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_continue_on_street.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_3d_rotation_light_green_a700_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_3d_rotation_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_play_arrow_light_green_a700_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_play_arrow_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_continue_on_street.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_continue_on_street.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_turn_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_turn_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_directions_run_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_directions_run_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_radio_on_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_radio_on_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_directions_walk_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_directions_walk_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_cloud_download_black_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_cloud_download_black_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_2x_turn_slight_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_2x_turn_slight_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_activity_geocode.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/activity_geocode.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_keyboard_arrow_up_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_keyboard_arrow_up_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_location_start_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_location_start_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_radio_on_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_radio_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_clear_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_clear_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_check_off_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_check_off_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_reached_via.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_reached_via.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_radio_on_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_radio_on_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_trending_up_light_green_a700_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_trending_up_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_icon_pocketmaps.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_icon_pocketmaps.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_location_end_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_location_end_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_star_outline_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_star_outline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_cloud_download_black_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_cloud_download_black_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_2x_turn_sharp_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_2x_turn_sharp_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_reached_via.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_reached_via.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_directions_run_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_directions_run_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_arrow_drop_down_white_18dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_arrow_drop_down_white_18dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_directions_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_directions_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_keyboard_arrow_left_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_keyboard_arrow_left_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_turn_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_turn_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_turn_slight_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_turn_slight_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_turn_slight_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_turn_slight_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_turn_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_turn_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_group_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_group_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_swipe_finger_thump_black.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_swipe_finger_thump_black.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_keyboard_arrow_down_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_keyboard_arrow_down_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_check_on_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_check_on_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_directions_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_directions_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_radio_on_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_radio_on_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_directions_car_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_directions_car_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_check_on_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_check_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_cloud_download_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_cloud_download_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_check_on_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_check_on_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/menu_menu_main.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_map_black_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_map_black_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_navigation_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_navigation_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_arrow_drop_down_white_18dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_arrow_drop_down_white_18dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_2x_keep_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_2x_keep_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_check_off_pressed_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_check_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_settings_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_settings_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_2x_turn_slight_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_2x_turn_slight_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_share_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_share_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_radio_off_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_radio_off_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_2x_turn_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_2x_turn_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_check_on_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_check_on_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_radio_off_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_radio_off_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_check_off_disabled_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_check_off_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_filter_center_focus_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_filter_center_focus_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_more_vert_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_more_vert_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_2x_turn_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_2x_turn_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_radio_on_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_radio_on_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_apptheme_btn_check_off_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/apptheme_btn_check_off_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_group_join_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_group_join_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_2x_turn_sharp_left.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_2x_turn_sharp_left.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_2x_reached_via.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_2x_reached_via.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_arrow_drop_down_white_18dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_arrow_drop_down_white_18dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_app_message.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/app_message.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_group_join_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_group_join_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_stop_orange_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/ic_stop_orange_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_location_end_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xhdpi/ic_location_end_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/layout_map_nav_settings_cal.xml.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/layout/map_nav_settings_cal.xml"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_star_outline_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/ic_star_outline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_map_black_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_map_black_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_radio_on_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_radio_on_focused_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_remove_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_remove_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_group_white_24dp.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_group_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_2x_roundabout.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/ic_2x_roundabout.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxhdpi_apptheme_btn_radio_off_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxhdpi/apptheme_btn_radio_off_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-hdpi_apptheme_btn_radio_on_disabled_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-hdpi/apptheme_btn_radio_on_disabled_holo_light.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_turn_slight_right.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-xxxhdpi/ic_turn_slight_right.png"
+    },
+    {
+        "merged": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/res/merged/debug/drawable-mdpi_apptheme_btn_radio_off_focused_holo_light.png.flat",
+        "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/drawable-mdpi/apptheme_btn_radio_off_focused_holo_light.png"
+    }
+]

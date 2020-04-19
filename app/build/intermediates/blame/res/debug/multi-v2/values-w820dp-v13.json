@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/yashkarkhanis/COEN 485/PocketMaps/PocketMaps/app/src/main/res/values-w820dp/dimens.xml",
+                    "from": {
+                        "startLines": "4,9,10,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "295,401,449,358",
+                        "endColumns": "57,46,52,39",
+                        "endOffsets": "348,443,497,393"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,113,160,213",
+                        "endColumns": "57,46,52,39",
+                        "endOffsets": "108,155,208,248"
+                    }
+                }
+            ]
+        }
+    ]
+}
