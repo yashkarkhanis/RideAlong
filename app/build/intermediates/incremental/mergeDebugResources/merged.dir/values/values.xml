@@ -682,6 +682,8 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="ridealong_text_size">18sp</dimen>
+    <dimen name="ridealong_title_size">24sp</dimen>
     <dimen name="subtitle_corner_radius">2dp</dimen>
     <dimen name="subtitle_outline_width">2dp</dimen>
     <dimen name="subtitle_shadow_offset">2dp</dimen>
@@ -829,9 +831,6 @@
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_quit">Quit</string>
-    <string name="action_register">Register</string>
-    <string name="action_sign_in">Login</string>
-    <string name="action_sign_in_short">Login</string>
     <string name="add_address">Add address</string>
     <string name="add_text">Additional text</string>
     <string name="alternate_route">Alternate route</string>
@@ -841,7 +840,6 @@
     <string name="autoselect_map_text">Start app everytime in selected map.</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="cancel">Cancel</string>
-    <string name="cancel_2">Cancel</string>
     <string name="change_map">Close map view</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
@@ -867,7 +865,6 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="create_group">Create Group</string>
     <string name="default_web_client_id" translatable="false">164935673301-mm3pe2lcrm4eg5lmd49bgfo78miv609h.apps.googleusercontent.com</string>
     <string name="delete_msg">Confirm to delete!</string>
     <string name="dialog_stop_save_tracking">Stop and save tracking ?</string>
@@ -893,16 +890,6 @@
     <string name="gps_is_off">GPS is turned off</string>
     <string name="gps_settings">GPS settings</string>
     <string name="gps_smooth">Smoothen movement</string>
-    <string name="group_create_tooltip">
-        Select \'Create Group\' button below
-        to create a new group.
-        \n\n
-        Then, share the group code above to let
-        your friends join this group. Once
-        you are finished adding friends or
-        have saved the code, press the ‘Done’ button below.
-    </string>
-    <string name="group_id">Group ID</string>
     <string name="h_m">h:m</string>
     <string name="help">Help</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
@@ -958,11 +945,34 @@
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="point_on_map">Point on map</string>
     <string name="project_id" translatable="false">logintest-91c91</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_email_confirmation">Email Confirmation</string>
-    <string name="prompt_password">Password</string>
-    <string name="prompt_password_confirmation">Password Confirmation</string>
-    <string name="prompt_username">Username</string>
+    <string name="ra_action_register">Register</string>
+    <string name="ra_action_sign_in">Login</string>
+    <string name="ra_action_sign_in_short">Login</string>
+    <string name="ra_cancel">Cancel</string>
+    <string name="ra_create_group">Create Group</string>
+    <string name="ra_group_create_tooltip">
+        Select \'Create Group\' button below
+        to create a new group.
+        \n\n
+        Then, share the group code above to let
+        your friends join this group. Once
+        you are finished adding friends or
+        have saved the code, press the ‘Done’ button below.
+    </string>
+    <string name="ra_group_id">Group ID</string>
+    <string name="ra_group_join_tooltip">
+        Enter a Group ID in the field above, then press
+        the \'Join Group\' button below.
+    </string>
+    <string name="ra_join_group">Join Group</string>
+    <string name="ra_prompt_email">Email</string>
+    <string name="ra_prompt_email_confirmation">Email Confirmation</string>
+    <string name="ra_prompt_password">Password</string>
+    <string name="ra_prompt_password_confirmation">Password Confirmation</string>
+    <string name="ra_prompt_username">Username</string>
+    <string name="ra_title_activity_group_create">Group Create</string>
+    <string name="ra_title_activity_login">Login</string>
+    <string name="ra_title_activity_register">Register</string>
     <string name="rate_pocket_maps">Rate Pocket Maps</string>
     <string name="remove">Remove</string>
     <string name="save">Save</string>
@@ -984,12 +994,9 @@
     <string name="title_activity_about">About</string>
     <string name="title_activity_analytics">Analytics</string>
     <string name="title_activity_download">Download maps</string>
-    <string name="title_activity_group_create">Group Create</string>
-    <string name="title_activity_login">Login</string>
     <string name="title_activity_main">Map Setting</string>
     <string name="title_activity_main_activity2">MainActivity2Activity</string>
     <string name="title_activity_map">Map</string>
-    <string name="title_activity_register">Register</string>
     <string name="title_activity_select">Select a map</string>
     <string name="to_loc">To</string>
     <string name="to_location">To Location</string>

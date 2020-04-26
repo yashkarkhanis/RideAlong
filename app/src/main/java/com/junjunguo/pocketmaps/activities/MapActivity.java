@@ -190,6 +190,12 @@ public class MapActivity extends Activity implements LocationListener {
             mCurrentLocation = mLastLocation;
         }
         if (mCurrentLocation != null) {
+
+            /**
+             * Below
+             */
+            GeoPoint tempGeoPoint = new GeoPoint(mCurrentLocation.getLatitude()+0.5, mCurrentLocation.getLongitude()+0.5);
+
             GeoPoint mcLatLong = new GeoPoint(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
             if (Tracking.getTracking(getApplicationContext()).isTracking()) {
                 MapHandler.getMapHandler().addTrackPoint(this, mcLatLong);
@@ -200,6 +206,10 @@ public class MapActivity extends Activity implements LocationListener {
               NaviEngine.getNaviEngine().updatePosition(this, mCurrentLocation);
             }
             MapHandler.getMapHandler().setCustomPoint(this, mcLatLong);
+
+            //here again
+            MapHandler.getMapHandler().setCustomPoint(this, tempGeoPoint);
+
             mapActions.showPositionBtn.setImageResource(R.drawable.ic_my_location_white_24dp);
         } else {
             mapActions.showPositionBtn.setImageResource(R.drawable.ic_location_searching_white_24dp);

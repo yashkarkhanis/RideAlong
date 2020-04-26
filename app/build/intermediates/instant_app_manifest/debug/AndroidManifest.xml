@@ -116,13 +116,10 @@
         <!-- RideAlong activities -->
         <activity
             android:name="com.junjunguo.pocketmaps.activities.ui.login.LoginActivity"
-            android:label="@string/title_activity_login" />
+            android:label="@string/ra_title_activity_login" />
         <activity
             android:name="com.junjunguo.pocketmaps.activities.ui.login.RegisterActivity"
-            android:label="@string/title_activity_register" />
-        <activity
-            android:name="com.junjunguo.pocketmaps.activities.GroupCreateActivity"
-            android:label="@string/title_activity_group_create" />
+            android:label="@string/ra_title_activity_register" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

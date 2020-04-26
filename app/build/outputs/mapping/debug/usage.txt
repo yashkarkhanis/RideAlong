@@ -3371,8 +3371,8 @@ io.opencensus.stats.View$AggregationWindow
 kotlin.io.FileWalkDirection
 androidx.vectordrawable.animated.R$drawable
 android.support.v4.media.session.MediaControllerCompatApi24
-androidx.media.MediaBrowserServiceCompatApi26$MediaBrowserServiceAdaptor
 android.support.v4.media.session.MediaSessionCompat$MediaSessionImplBase
+androidx.media.MediaBrowserServiceCompatApi26$MediaBrowserServiceAdaptor
 androidx.core.graphics.TypefaceCompatUtil:
     private void <init>()
     private static final java.lang.String TAG

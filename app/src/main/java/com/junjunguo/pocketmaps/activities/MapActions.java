@@ -58,8 +58,10 @@ public class MapActions implements NavigatorListener, MapHandlerListener {
     public final static String EMPTY_LOC_STR = "..........";
     private final static int ZOOM_MAX = 22;
     private final static int ZOOM_MIN = 1;
-    private static final int GROUP_CREATE_REQUEST = 0;
 
+    private final static int RA_GROUP_CREATE = 0;
+    private final static int RA_GROUP_JOIN = 1;
+    
     enum TabAction{ StartPoint, EndPoint, AddFavourit, None };
     private TabAction tabAction = TabAction.None;
     private Activity activity;
@@ -198,17 +200,15 @@ public class MapActions implements NavigatorListener, MapHandlerListener {
     private void initGroupBtnHandler() {
         groupJoinBtn.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) {
-                appSettings.showAppSettings(sideBarVP, SettType.Default);
+                //appSettings.showAppSettings(sideBarVP, SettType.Default);
+                groupDialog.showGroupDialog(sideBarVP, RA_GROUP_JOIN);
             }
         });
 
         groupCreateBtn.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) {
-                groupDialog.showGroupCreate(sideBarVP);
                 //appSettings.showAppSettings(sideBarVP, SettType.Default);
-
-                //Intent groupCreate = new Intent(this, GroupCreateActivity.class);
-                //startActivityForResult(groupCreate, GROUP_CREATE_REQUEST);
+                groupDialog.showGroupDialog(sideBarVP, RA_GROUP_CREATE);
             }
         });
 

@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PocketMaps.iml" filepath="$PROJECT_DIR$/PocketMaps.iml" group="PocketMaps" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="PocketMaps/app" />
+      <module fileurl="file://$PROJECT_DIR$/RideAlong.iml" filepath="$PROJECT_DIR$/RideAlong.iml" group="RideAlong" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="RideAlong/app" />
     </modules>
   </component>
 </project>
