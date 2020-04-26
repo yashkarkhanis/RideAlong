@@ -103,6 +103,10 @@ public class GroupDialog {
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         FirebaseFirestore db = FirebaseFirestore.getInstance();
 
+        if(user == null) {
+            Log.d(TAG, "User equals NULL");
+        }
+
         /**
          * Group UID:
          * Get local time as int / long
@@ -111,14 +115,10 @@ public class GroupDialog {
          */
 
         final int groupUID = ThreadLocalRandom.current().nextInt(RANDOM_MIN, RANDOM_MAX + 1);
-        Map user_data = null;
-        //user_data.put(user.getUid(),"geopoint");
-        //user_data.put("user_uid","geopoint");
 
-        // Create a new user with a first and last name
+
         Map<String, Object> groupData = new HashMap<>();
-        //groupData.put("group_users", user_data);
-        groupData.put("group_users", "test value");
+        groupData.put(user.getUid().toString(), "Location Geopoint");
 
         // Add a new document with a generated ID
         db.collection("Groups").document(String.valueOf(groupUID))
