@@ -18,6 +18,8 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.junjunguo.pocketmaps.R;
 import com.junjunguo.pocketmaps.activities.ui.login.RegisterActivity;
 
+import org.w3c.dom.Text;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
@@ -107,8 +109,8 @@ public class GroupDialog {
                     @Override
                     public void onSuccess(Void aVoid) {
                         Log.d(TAG, "DocumentSnapshot successfully written!");
-                        //TextView uid = (TextView) activity.findViewById(R.id.gp_id_field);
-                        //uid.setText(groupUID);
+                        TextView uid = (TextView) activity.findViewById(R.id.gp_id_field);
+                        uid.setText(Integer.toString(groupUID));
                     }
                 })
                 .addOnFailureListener(new OnFailureListener() {
