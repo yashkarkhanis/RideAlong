@@ -2427,6 +2427,7 @@ string project_id
 string ra_action_register
 string ra_action_sign_in
 string ra_action_sign_in_short
+string ra_back
 string ra_cancel
 string ra_create_group
 string ra_group_create_tooltip

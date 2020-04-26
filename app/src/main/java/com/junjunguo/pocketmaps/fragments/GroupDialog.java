@@ -36,6 +36,7 @@ public class GroupDialog {
 
     private Activity activity;
     private ViewGroup groupCreateVP, groupJoinVP, title;
+    private Button createBtn;
 
     public GroupDialog (Activity activity) {
         this.activity = activity;
@@ -72,7 +73,7 @@ public class GroupDialog {
     }
 
     private void initCreateBtn () {
-        Button createBtn = (Button) activity.findViewById(R.id.gp_button_create);
+        createBtn = (Button) activity.findViewById(R.id.gp_button_create);
         createBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -81,6 +82,11 @@ public class GroupDialog {
                 generateGroupUID();
             }
         });
+    }
+
+    private void disableCreateBtn () {
+        createBtn.setEnabled(false);
+        createBtn.setBackgroundColor(activity.getResources().getColor(R.color.ridealong_grey));
     }
 
     private void initJoinBtn () {
@@ -111,6 +117,7 @@ public class GroupDialog {
                         Log.d(TAG, "DocumentSnapshot successfully written!");
                         TextView uid = (TextView) activity.findViewById(R.id.gp_id_field);
                         uid.setText(Integer.toString(groupUID));
+                        disableCreateBtn();
                     }
                 })
                 .addOnFailureListener(new OnFailureListener() {

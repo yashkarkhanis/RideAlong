@@ -99,6 +99,7 @@
     <string name="ra_join_group">Join Group</string>
     <string name="ra_group_id">Group ID</string>
     <string name="ra_cancel">Cancel</string>
+    <string name="ra_back">Back</string>
 
     <!-- RideAlong text -->
     <string name="ra_group_create_tooltip">

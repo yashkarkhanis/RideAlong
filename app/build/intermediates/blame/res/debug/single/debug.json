@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-hdpi\\ic_2x_continue_on_street.png"
     },
     {
-        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_apptheme_btn_check_off_focused_holo_light.png.flat",
-        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-hdpi\\apptheme_btn_check_off_focused_holo_light.png"
-    },
-    {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_apptheme_btn_radio_off_disabled_focused_holo_light.png.flat",
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xhdpi\\apptheme_btn_radio_off_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_apptheme_btn_check_off_focused_holo_light.png.flat",
+        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-hdpi\\apptheme_btn_check_off_focused_holo_light.png"
     },
     {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_timer_white_24dp.png.flat",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-hdpi\\ic_navigation_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_2x_turn_sharp_right.png.flat",
-        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_2x_turn_sharp_right.png"
-    },
-    {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_2x_turn_sharp_right.png.flat",
+        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_2x_turn_sharp_right.png"
     },
     {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_pause_orange_24dp.png.flat",
@@ -72,16 +72,16 @@
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-hdpi\\ic_search_white_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_apptheme_btn_check_on_disabled_focused_holo_light.png.flat",
-        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xhdpi\\apptheme_btn_check_on_disabled_focused_holo_light.png"
+        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_directions_car_white_24dp.png.flat",
+        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-mdpi\\ic_directions_car_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_directions_car_orange_24dp.png.flat",
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_directions_car_orange_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_directions_car_white_24dp.png.flat",
-        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-mdpi\\ic_directions_car_white_24dp.png"
+        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_apptheme_btn_check_on_disabled_focused_holo_light.png.flat",
+        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xhdpi\\apptheme_btn_check_on_disabled_focused_holo_light.png"
     },
     {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_keyboard_arrow_up_white_24dp.png.flat",
@@ -192,12 +192,12 @@
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_2x_continue_on_street.png"
     },
     {
-        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add_white_24dp.png.flat",
-        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_add_white_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_3d_rotation_light_green_a700_24dp.png.flat",
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xhdpi\\ic_3d_rotation_light_green_a700_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add_white_24dp.png.flat",
+        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_add_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_directions_walk_orange_24dp.png.flat",
@@ -244,12 +244,12 @@
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable\\my_action_bar_logo.xml"
     },
     {
-        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_turn_slight_left.png.flat",
-        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-hdpi\\ic_turn_slight_left.png"
-    },
-    {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_settings_white_24dp.png.flat",
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xxhdpi\\ic_settings_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_turn_slight_left.png.flat",
+        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-hdpi\\ic_turn_slight_left.png"
     },
     {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_apptheme_btn_radio_on_focused_holo_light.png.flat",
@@ -272,12 +272,12 @@
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-mdpi\\apptheme_btn_radio_on_focused_holo_light.png"
     },
     {
-        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_2x_turn_slight_right.png.flat",
-        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xxhdpi\\ic_2x_turn_slight_right.png"
-    },
-    {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_2x_turn_slight_left.png.flat",
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xhdpi\\ic_2x_turn_slight_left.png"
+    },
+    {
+        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_2x_turn_slight_right.png.flat",
+        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xxhdpi\\ic_2x_turn_slight_right.png"
     },
     {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_apptheme_btn_check_on_disabled_focused_holo_light.png.flat",
@@ -344,12 +344,12 @@
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xxhdpi\\ic_navigation_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_space_bar_white_24dp.png.flat",
-        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_space_bar_white_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\layout_map_nav_settings_to.xml.flat",
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\layout\\map_nav_settings_to.xml"
+    },
+    {
+        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_space_bar_white_24dp.png.flat",
+        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_space_bar_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_map_black_24dp.png.flat",
@@ -448,12 +448,12 @@
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_cloud_download_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_filter_center_focus_white_24dp.png.flat",
-        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xxhdpi\\ic_filter_center_focus_white_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_arrow_drop_down_white_18dp.png.flat",
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-mdpi\\ic_arrow_drop_down_white_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_filter_center_focus_white_24dp.png.flat",
+        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xxhdpi\\ic_filter_center_focus_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_2x_turn_sharp_right.png.flat",
@@ -528,12 +528,12 @@
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\layout\\map_nav_settings.xml"
     },
     {
-        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_stop_orange_24dp.png.flat",
-        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-mdpi\\ic_stop_orange_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_apptheme_btn_radio_off_focused_holo_light.png.flat",
         "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-xhdpi\\apptheme_btn_radio_off_focused_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_stop_orange_24dp.png.flat",
+        "source": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\src\\main\\res\\drawable-mdpi\\ic_stop_orange_24dp.png"
     },
     {
         "merged": "C:\\Users\\Goofynose\\Documents\\GitHub\\TEMP\\RideAlong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_3d_rotation_light_green_a700_24dp.png.flat",

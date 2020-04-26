@@ -77,7 +77,7 @@
             android:layout_height="55dp"
             android:layout_marginTop="20dp"
             android:background="@color/ridealong_red"
-            android:text="@string/ra_cancel"
+            android:text="@string/ra_back"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/gj_button_join" />
