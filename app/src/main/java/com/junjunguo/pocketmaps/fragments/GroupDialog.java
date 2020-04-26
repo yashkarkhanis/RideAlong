@@ -1,6 +1,7 @@
 package com.junjunguo.pocketmaps.fragments;
 
 import android.app.Activity;
+import android.os.Build;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -32,11 +34,9 @@ public class GroupDialog {
 
     private final static String TAG = "GROUP_DIALOG";
 
-    private FirebaseAuth mAuth;
-
     private Activity activity;
     private ViewGroup groupCreateVP, groupJoinVP, title;
-    private Button createBtn;
+    private Button createBtn, joinBtn;
 
     public GroupDialog (Activity activity) {
         this.activity = activity;
@@ -90,13 +90,25 @@ public class GroupDialog {
     }
 
     private void initJoinBtn () {
-
+        joinBtn = (Button) activity.findViewById(R.id.gj_button_join);
+        joinBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                joinGroupWithUID();
+            }
+        });
     }
 
     private void generateGroupUID () {
-        mAuth = FirebaseAuth.getInstance();
-        FirebaseUser user = mAuth.getCurrentUser();
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+        /**
+         * Group UID:
+         * Get local time as int / long
+         * Get int value of username or fb user
+         * Combine and reduce to 8 digits
+         */
 
         final int groupUID = ThreadLocalRandom.current().nextInt(RANDOM_MIN, RANDOM_MAX + 1);
         Map user_data = null;
@@ -126,5 +138,9 @@ public class GroupDialog {
                         Log.w(TAG, "Error writing document", e);
                     }
                 });
+    }
+
+    private void joinGroupWithUID () {
+        //TODO
     }
 }

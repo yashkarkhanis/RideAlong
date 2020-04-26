@@ -8,7 +8,8 @@ android {
     defaultConfig {
         //applicationId "com.junjunguo.pocketmaps"
         applicationId "com.ridealong.android"
-        minSdkVersion 19
+        //minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 29
         versionCode 34
         versionName "3.4"
