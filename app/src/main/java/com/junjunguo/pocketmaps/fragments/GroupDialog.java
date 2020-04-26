@@ -114,11 +114,15 @@ public class GroupDialog {
          * Combine and reduce to 8 digits
          */
 
-        final int groupUID = ThreadLocalRandom.current().nextInt(RANDOM_MIN, RANDOM_MAX + 1);
+        Long lTimeStamp = System.currentTimeMillis();
+
+
+        //int groupUID = ThreadLocalRandom.current().nextInt(RANDOM_MIN, RANDOM_MAX + 1);
+        final String groupUID = Long.toString(lTimeStamp);
 
 
         Map<String, Object> groupData = new HashMap<>();
-        groupData.put(user.getUid().toString(), "Location Geopoint");
+        groupData.put(user.getUid(), "Location Geopoint");
 
         // Add a new document with a generated ID
         db.collection("Groups").document(String.valueOf(groupUID))
@@ -128,7 +132,7 @@ public class GroupDialog {
                     public void onSuccess(Void aVoid) {
                         Log.d(TAG, "DocumentSnapshot successfully written!");
                         TextView uid = (TextView) activity.findViewById(R.id.gp_id_field);
-                        uid.setText(Integer.toString(groupUID));
+                        uid.setText(groupUID);
                         disableCreateBtn();
                     }
                 })
