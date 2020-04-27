@@ -50,6 +50,7 @@ public class GroupDialog {
             initCancelBtn(groupCreateVP, calledFromVP, RA_GROUP_CREATE);
             groupCreateVP.setVisibility(View.VISIBLE);
         } else if (target == RA_GROUP_JOIN) {
+            initJoinBtn();
             initCancelBtn(groupJoinVP, calledFromVP, RA_GROUP_JOIN);
             groupJoinVP.setVisibility(View.VISIBLE);
         }
@@ -99,6 +100,11 @@ public class GroupDialog {
         });
     }
 
+    private void disableJoinBtn () {
+        joinBtn.setEnabled(false);
+        joinBtn.setBackgroundColor(activity.getResources().getColor(R.color.ridealong_grey));
+    }
+
     private void generateGroupUID () {
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         FirebaseFirestore db = FirebaseFirestore.getInstance();
@@ -145,6 +151,35 @@ public class GroupDialog {
     }
 
     private void joinGroupWithUID () {
-        //TODO
+        TextView uidTextView = (TextView) activity.findViewById(R.id.gj_id_field);
+        if (uidTextView.getText() != null) {
+            final String groupUID = uidTextView.getText().toString();
+            if (!groupUID.isEmpty()) {
+                FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+                Map<String, Object> groupData = new HashMap<>();
+                //groupData.put(user.getUid(), "Location Geopoint");
+                groupData.put("User_2", "Location Geopoint");
+
+                db.collection("Groups").document(String.valueOf(groupUID))
+                        .update(groupData)
+                        .addOnSuccessListener(new OnSuccessListener<Void>() {
+                            @Override
+                            public void onSuccess(Void aVoid) {
+                                Log.d(TAG, "DocumentSnapshot successfully written!");
+                                TextView uid = (TextView) activity.findViewById(R.id.gp_id_field);
+                                uid.setText(groupUID);
+                                disableJoinBtn();
+                            }
+                        })
+                        .addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception e) {
+                                Log.w(TAG, "Error writing document", e);
+                            }
+                        });
+            }
+        }
     }
 }
