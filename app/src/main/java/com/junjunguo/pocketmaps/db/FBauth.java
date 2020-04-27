@@ -13,26 +13,10 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class FBauth {
 
-    private static final String TAG = "";
+    private static final String TAG = "FBauth";
     private static FirebaseAuth mAuth;
 
-    public static void initialiseFBauth(){
-        // Initialize Firebase Auth
-        mAuth = FirebaseAuth.getInstance();
-        // Check if user is signed in (non-null)
-        FirebaseUser currentUser = mAuth.getCurrentUser();
-    }
-
-    public static void createAccount(){
-        mAuth.createUserWithEmailAndPassword("valegianisagnotti@scu.edu", "password");
-    }
-
-    public static void accessAccount(){
-        mAuth.signInWithEmailAndPassword("valegianisagnotti@scu.edu", "password");
-    }
-
-    public FirebaseAuth getmAuth() {
-        //TODO check for null
-        return mAuth;
+    public static void userSignOut() {
+        FirebaseAuth.getInstance().signOut();
     }
 }

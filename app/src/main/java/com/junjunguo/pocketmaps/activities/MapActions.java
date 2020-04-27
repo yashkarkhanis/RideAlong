@@ -24,6 +24,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.junjunguo.pocketmaps.R;
+import com.junjunguo.pocketmaps.db.FBauth;
 import com.junjunguo.pocketmaps.fragments.AppSettings;
 import com.junjunguo.pocketmaps.fragments.AppSettings.SettType;
 import com.junjunguo.pocketmaps.fragments.GroupDialog;
@@ -67,7 +68,7 @@ public class MapActions implements NavigatorListener, MapHandlerListener {
     private Activity activity;
     private AppSettings appSettings;
     private GroupDialog groupDialog;
-    protected FloatingActionButton showPositionBtn, navigationBtn, settingsBtn, settingsSetBtn, settingsNavBtn, controlBtn, favourBtn, groupBtn, groupCreateBtn, groupJoinBtn;
+    protected FloatingActionButton showPositionBtn, navigationBtn, settingsBtn, settingsSetBtn, settingsNavBtn, settingsProfileBtn, controlBtn, favourBtn, groupBtn, groupCreateBtn, groupJoinBtn;
     protected FloatingActionButton zoomInBtn, zoomOutBtn;
     private ViewGroup sideBarVP, sideBarMenuVP, southBarSettVP, southBarFavourVP, southBarGroupVP ,navSettingsVP, navSettingsFromVP, navSettingsToVP,
             navInstructionListVP, navTopVP;
@@ -81,6 +82,7 @@ public class MapActions implements NavigatorListener, MapHandlerListener {
         this.settingsBtn = (FloatingActionButton) activity.findViewById(R.id.map_southbar_settings_fab);
         this.settingsSetBtn = (FloatingActionButton) activity.findViewById(R.id.map_southbar_sett_sett_fab);
         this.settingsNavBtn = (FloatingActionButton) activity.findViewById(R.id.map_southbar_sett_nav_fab);
+        this.settingsProfileBtn = (FloatingActionButton) activity.findViewById(R.id.map_southbar_sett_profile_fab);
         this.favourBtn = (FloatingActionButton) activity.findViewById(R.id.map_southbar_favour_fab);
         this.controlBtn = (FloatingActionButton) activity.findViewById(R.id.map_sidebar_control_fab);
         this.groupBtn = (FloatingActionButton) activity.findViewById(R.id.map_southbar_group_fab);
@@ -131,6 +133,15 @@ public class MapActions implements NavigatorListener, MapHandlerListener {
           @Override public void onClick(View v) {
               appSettings.showAppSettings(sideBarVP, SettType.Navi);
           }
+        });
+        settingsProfileBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FBauth.userSignOut();
+                Intent returnToMain = new Intent(activity, MainActivity.class);
+                returnToMain.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                activity.startActivity(returnToMain);
+            }
         });
 
         settingsBtn.setOnClickListener(new View.OnClickListener() {
