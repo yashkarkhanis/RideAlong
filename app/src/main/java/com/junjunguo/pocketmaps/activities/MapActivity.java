@@ -191,11 +191,6 @@ public class MapActivity extends Activity implements LocationListener {
         }
         if (mCurrentLocation != null) {
 
-            /**
-             * Below
-             */
-            GeoPoint tempGeoPoint = new GeoPoint(mCurrentLocation.getLatitude()+0.5, mCurrentLocation.getLongitude()+0.5);
-
             GeoPoint mcLatLong = new GeoPoint(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
             if (Tracking.getTracking(getApplicationContext()).isTracking()) {
                 MapHandler.getMapHandler().addTrackPoint(this, mcLatLong);
@@ -207,8 +202,9 @@ public class MapActivity extends Activity implements LocationListener {
             }
             MapHandler.getMapHandler().setCustomPoint(this, mcLatLong);
 
-            //here again
-            MapHandler.getMapHandler().setCustomPoint(this, tempGeoPoint);
+            //HERE HERE HERE
+            GeoPoint tempGeoPoint = new GeoPoint(mCurrentLocation.getLatitude()+0.1, mCurrentLocation.getLongitude()+0.1);
+            MapHandler.getMapHandler().setRideAlongPoint(this, tempGeoPoint);
 
             mapActions.showPositionBtn.setImageResource(R.drawable.ic_my_location_white_24dp);
         } else {

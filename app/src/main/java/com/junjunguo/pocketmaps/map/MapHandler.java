@@ -68,6 +68,7 @@ public class MapHandler
   private MapView mapView;
   private ItemizedLayer<MarkerItem> itemizedLayer;
   private ItemizedLayer<MarkerItem> customLayer;
+  private ItemizedLayer<MarkerItem> rideAlongLayer;  /** RideAlong layer **/
   private PathLayer pathLayer;
   private PathLayer polylineTrack;
   private GraphHopper hopper;
@@ -142,6 +143,8 @@ public class MapHandler
     mapView.map().layers().add(itemizedLayer);
     customLayer = new ItemizedLayer<>(mapView.map(), (MarkerSymbol) null);
     mapView.map().layers().add(customLayer);
+    rideAlongLayer = new ItemizedLayer<>(mapView.map(), (MarkerSymbol) null);
+    mapView.map().layers().add(rideAlongLayer);
 
     // Map position
     GeoPoint mapCenter = tileSource.getMapInfo().boundingBox.getCenterPoint();
@@ -280,6 +283,23 @@ public class MapHandler
   {
     setCalculatePath(true, true);
     calcPath(startMarker.getLatitude(), startMarker.getLongitude(), endMarker.getLatitude(), endMarker.getLongitude(), activity);
+  }
+
+  /**
+   * Set custom points for group members. Null geopoint to delete.
+   */
+  public void setRideAlongPoint(Activity activity, GeoPoint p)
+  {
+      if(rideAlongLayer == null) { return; } // Not loaded yet.
+      if(p == null)
+      {
+          rideAlongLayer.removeAllItems();
+      }
+      else
+      {
+          rideAlongLayer.addItem(createMarkerItem(activity, p, customIcon, 0.5f, 0.5f));
+          mapView.map().updateMap();
+      }
   }
 
   /** Set the custom Point for current location, or null to delete.
