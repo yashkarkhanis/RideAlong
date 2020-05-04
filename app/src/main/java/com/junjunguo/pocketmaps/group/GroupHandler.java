@@ -13,6 +13,8 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.junjunguo.pocketmaps.R;
 import com.junjunguo.pocketmaps.model.GroupMember;
 
+import org.oscim.core.GeoPoint;
+
 import java.security.acl.Group;
 import java.util.HashMap;
 import java.util.Map;
@@ -31,10 +33,34 @@ public class GroupHandler {
     private static String lastMessage = null;
 
     /**
+     * Post destination to firebase.
+     * @return GeoPoint of posted destination.
+     */
+    public GeoPoint setDestination() {
+        if(leaderState == LeaderStateEnum.LEADER)
+        {
+            // Post to firebase.
+        }
+        else
+        {
+            // Not leader cannot post destination.
+        }
+        return null;
+    }
+
+    /**
+     * Read destination from firebase.
+     * @return destination geopoint.
+     */
+    public GeoPoint getDestination() {
+        return null;
+    }
+
+    /**
      * Read user locations from firebase.
      * @return array of UID and locations.
      */
-    public GroupMember[] pollLocations() {
+    public static GroupMember[] pollLocations() {
         return null;
     }
 
@@ -90,7 +116,7 @@ public class GroupHandler {
         return this.leaderState;
     }
 
-    public boolean getIsGrouped() {
+    public static boolean getIsGrouped() {
         return isGrouped;
     }
 

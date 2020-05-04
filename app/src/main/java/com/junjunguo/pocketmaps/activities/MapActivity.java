@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import com.junjunguo.pocketmaps.R;
 import com.junjunguo.pocketmaps.fragments.Dialog;
+import com.junjunguo.pocketmaps.group.GroupHandler;
 import com.junjunguo.pocketmaps.map.Destination;
 import com.junjunguo.pocketmaps.map.MapHandler;
 import com.junjunguo.pocketmaps.map.Navigator;
@@ -201,6 +202,15 @@ public class MapActivity extends Activity implements LocationListener {
               NaviEngine.getNaviEngine().updatePosition(this, mCurrentLocation);
             }
             MapHandler.getMapHandler().setCustomPoint(this, mcLatLong);
+
+            if(GroupHandler.getIsGrouped())
+            {
+                /**
+                 * Call pollLocations() to get updated locations from firebase.
+                 * Then use setRideAlongPoint() for all group members.
+                 */
+                GroupHandler.pollLocations();
+            }
 
             //HERE HERE HERE
             GeoPoint tempGeoPoint = new GeoPoint(mCurrentLocation.getLatitude()+0.1, mCurrentLocation.getLongitude()+0.1);
