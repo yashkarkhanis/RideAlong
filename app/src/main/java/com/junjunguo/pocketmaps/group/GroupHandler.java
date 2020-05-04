@@ -11,7 +11,9 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.junjunguo.pocketmaps.R;
+import com.junjunguo.pocketmaps.model.GroupMember;
 
+import java.security.acl.Group;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,14 +21,22 @@ public class GroupHandler {
 
     private final static String TAG = "GROUP_HANDLER";
 
-    private boolean isGrouped = false;
+    private static boolean isGrouped = false;
     private enum LeaderStateEnum{
         LEADER,
         NOT_LEADER,
         NOT_GROUPED,
     }
-    private LeaderStateEnum leaderState = LeaderStateEnum.NOT_GROUPED;
-    private String lastMessage = null;
+    private static LeaderStateEnum leaderState = LeaderStateEnum.NOT_GROUPED;
+    private static String lastMessage = null;
+
+    /**
+     * Read user locations from firebase.
+     * @return array of UID and locations.
+     */
+    public GroupMember[] pollLocations() {
+        return null;
+    }
 
     public void joinGroup(final String groupUID) {
         // TODO Currently in GroupDialog.java, consider moving here.
