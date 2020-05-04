@@ -19,6 +19,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.junjunguo.pocketmaps.R;
 import com.junjunguo.pocketmaps.activities.ui.login.RegisterActivity;
+import com.junjunguo.pocketmaps.group.GroupHandler;
 
 import org.w3c.dom.Text;
 
@@ -140,6 +141,9 @@ public class GroupDialog {
                         TextView uid = (TextView) activity.findViewById(R.id.gp_id_field);
                         uid.setText(groupUID);
                         disableCreateBtn();
+                        GroupHandler.setIsGrouped(true);
+                        GroupHandler.setLeaderState(GroupHandler.LeaderStateEnum.LEADER);
+                        GroupHandler.setGroupUID(groupUID);
                     }
                 })
                 .addOnFailureListener(new OnFailureListener() {
@@ -171,6 +175,9 @@ public class GroupDialog {
                                 TextView uid = (TextView) activity.findViewById(R.id.gp_id_field);
                                 uid.setText(groupUID);
                                 disableJoinBtn();
+                                GroupHandler.setIsGrouped(true);
+                                GroupHandler.setLeaderState(GroupHandler.LeaderStateEnum.NOT_LEADER);
+                                GroupHandler.setGroupUID(groupUID);
                             }
                         })
                         .addOnFailureListener(new OnFailureListener() {

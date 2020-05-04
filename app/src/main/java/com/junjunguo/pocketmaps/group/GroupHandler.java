@@ -29,7 +29,7 @@ public class GroupHandler {
     private final static String TAG = "GROUP_HANDLER";
 
     private static boolean isGrouped = false;
-    private enum LeaderStateEnum{
+    public enum LeaderStateEnum{
         LEADER,
         NOT_LEADER,
         NOT_GROUPED,
@@ -68,13 +68,12 @@ public class GroupHandler {
         });
     }
 
-    public String setGroupUID(String UID) {
-        // TODO Consider if needed.
-        return null;
+    public static void setGroupUID(String UID) {
+       GroupHandler.groupUID = UID;
     }
 
     public String getGroupUID() {
-        return null;
+        return GroupHandler.groupUID;
     }
 
     /**
@@ -183,7 +182,6 @@ public class GroupHandler {
     /**
      * Post new message to firebase.
      * @param message
-     * @return true if success, false otherwise.
      */
     public void sendMessage(String message) {
 
@@ -217,17 +215,17 @@ public class GroupHandler {
         return leaderState;
     }
 
-    public LeaderStateEnum setLeaderState(LeaderStateEnum leaderState) {
-        this.leaderState = leaderState;
-        return this.leaderState;
+    public static LeaderStateEnum setLeaderState(LeaderStateEnum leaderState) {
+        GroupHandler.leaderState = leaderState;
+        return GroupHandler.leaderState;
     }
 
     public static boolean getIsGrouped() {
         return isGrouped;
     }
 
-    public boolean setIsGrouped(boolean isGrouped) {
-        this.isGrouped = isGrouped;
-        return this.isGrouped;
+    public static boolean setIsGrouped(boolean isGrouped) {
+        GroupHandler.isGrouped = isGrouped;
+        return GroupHandler.isGrouped;
     }
 }
