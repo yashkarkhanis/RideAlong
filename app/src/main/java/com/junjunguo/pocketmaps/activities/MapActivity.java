@@ -209,7 +209,7 @@ public class MapActivity extends Activity implements LocationListener {
                  * Call pollLocations() to get updated locations from firebase.
                  * Then use setRideAlongPoint() for all group members.
                  */
-                GroupHandler.pollLocations();
+                GroupHandler.getLocations();
             }
 
             //HERE HERE HERE
