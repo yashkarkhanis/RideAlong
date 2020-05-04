@@ -185,8 +185,32 @@ public class GroupHandler {
      * @param message
      * @return true if success, false otherwise.
      */
-    public boolean sendMessage(String message) {
-        return true;
+    public void sendMessage(String message) {
+
+        if (message == null) {return;}
+
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+        Long lTimeStamp = System.currentTimeMillis();
+        final String timeStamp = Long.toString(lTimeStamp);
+
+        Map<String, Object> messageMap = new HashMap<>();
+        messageMap.put(timeStamp, "Test message.");
+
+        db.collection("Groups_messages").document(groupUID)
+                .set(messageMap)
+                .addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void aVoid) {
+                        Log.d(TAG, "DocumentSnapshot successfully written!");
+                    }
+                })
+                .addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Log.w(TAG, "Error writing document", e);
+                    }
+                });
     }
 
     public LeaderStateEnum getLeaderState() {
