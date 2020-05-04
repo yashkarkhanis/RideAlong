@@ -205,6 +205,7 @@ public class MapActivity extends Activity implements LocationListener {
             //HERE HERE HERE
             GeoPoint tempGeoPoint = new GeoPoint(mCurrentLocation.getLatitude()+0.1, mCurrentLocation.getLongitude()+0.1);
             MapHandler.getMapHandler().setRideAlongPoint(this, tempGeoPoint);
+            //HERE HERE HERE
 
             mapActions.showPositionBtn.setImageResource(R.drawable.ic_my_location_white_24dp);
         } else {
