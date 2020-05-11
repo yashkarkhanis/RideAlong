@@ -210,20 +210,6 @@ public class MapActivity extends Activity implements LocationListener {
             }
             MapHandler.getMapHandler().setCustomPoint(this, mcLatLong);
 
-            //if(GroupHandler.getIsGrouped())
-            //{
-                /**
-                 * Call pollLocations() to get updated locations from firebase.
-                 * Then use setRideAlongPoint() for all group members.
-                 */
-            //    GroupHandler.getLocations();
-            //}
-
-            //HERE HERE HERE
-            //GeoPoint tempGeoPoint = new GeoPoint(mCurrentLocation.getLatitude()+0.1, mCurrentLocation.getLongitude()+0.1);
-            //MapHandler.getMapHandler().setRideAlongPoint(this, tempGeoPoint);
-            //HERE HERE HERE
-
             mapActions.showPositionBtn.setImageResource(R.drawable.ic_my_location_white_24dp);
         } else {
             mapActions.showPositionBtn.setImageResource(R.drawable.ic_location_searching_white_24dp);

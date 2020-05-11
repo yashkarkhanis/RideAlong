@@ -68,6 +68,10 @@ public class GroupHandler {
                     } else {
                         Log.d(TAG, "No such document / Document deleted");
                         // TODO here quit group since document is not found.
+                        isGrouped = false;
+                        leaderState = LeaderStateEnum.NOT_GROUPED;
+                        groupUID = "BLANK";
+                        // This should be enough to leave group, I think?
                     }
                 } else {
                     Log.d(TAG, "get failed with ", task.getException());
@@ -88,17 +92,11 @@ public class GroupHandler {
      * Post destination to firebase.
      * @return GeoPoint of posted destination.
      */
-    public GeoPoint setDestination() {
+    public void setDestination(double latitude, double longitude) {
         if(leaderState == LeaderStateEnum.LEADER)
         {
             // Post to firebase.
         }
-        else
-        {
-            // Not leader cannot post destination.
-            // Added as extra safety measure, shouldn't be called in the first place if user isn't leader.
-        }
-        return null;
     }
 
     /**
