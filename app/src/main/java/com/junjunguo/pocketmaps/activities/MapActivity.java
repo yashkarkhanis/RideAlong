@@ -216,18 +216,31 @@ public class MapActivity extends Activity implements LocationListener {
         }
     }
 
+    /**
+     * RideAlong: Update the location of group members.
+     */
     private void updateGroupLocations() {
         if(GroupHandler.getIsGrouped() == false) {return;}
 
         if(GroupHandler.getLeaderState() == GroupHandler.LeaderStateEnum.LEADER)
         {
             // TODO Post destination OR change to only post destination when updated.
-            //GroupHandler.setLocalDestination(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
+            GroupHandler.setLocalDestination(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
             GroupHandler.postDestination(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
         }
 
         GroupHandler.getGroupData();
         GroupHandler.postLocation(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
+
+        // TODO Change this. Entire GroupHandler class needs to be rewritten to non-static.
+        // Currently only way to fix problems is to get destination before locations updates groupData.
+        // Why did I make it all static!!!
+        ArrayList<Double> latLong;
+        try {
+            latLong = GroupHandler.getDestination();
+        } catch (Exception e) {
+            return;
+        }
 
         Map<String, ArrayList> locations = new HashMap<>();
         locations = GroupHandler.getLocations();
@@ -240,15 +253,26 @@ public class MapActivity extends Activity implements LocationListener {
             MapHandler.getMapHandler().setRideAlongPoint(this, (GeoPoint) geoPoint);
         }
 
-        ArrayList<Double> latLong = GroupHandler.getDestination();
-
         if (latLong == null) {return;} //Again, terrible fix...
-        else if (Destination.getDestination().getEndPoint().getLatitude() == latLong.get(0) && Destination.getDestination().getEndPoint().getLongitude() == latLong.get(1)) {return;}
+        //else if (Destination.getDestination().getEndPoint().getLatitude() == latLong.get(0) && Destination.getDestination().getEndPoint().getLongitude() == latLong.get(1)) {return;}
+        // The above ^ else if does not work. Find a way to check for destination duplicate.
 
-        GeoPoint destination = new GeoPoint(latLong.get(0), latLong.get(1));
+        // 1. Set Start/End Points
+        GeoPoint destination = new GeoPoint((Double) latLong.get(0), (double) latLong.get(1));
         Destination.getDestination().setEndPoint(destination, "GroupDestination");
         GeoPoint userLocation = new GeoPoint(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
         Destination.getDestination().setStartPoint(userLocation, "UserLocation");
+
+        // 2. Set Start/End Markers
+        MapHandler.getMapHandler().setStartEndPoint(this, userLocation, true, false);
+        MapHandler.getMapHandler().setStartEndPoint(this, destination, false, true);
+
+        // 3. Set travel mode
+        Navigator.getNavigator().setTravelModeArrayIndex(2);
+
+        // 4. Navigation start
+        //Navigator.getNavigator().setNaviStart(this, true);
+
     }
     
     public MapActions getMapActions() { return mapActions; }

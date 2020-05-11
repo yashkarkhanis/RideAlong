@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/nav_settings_layout"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
     android:background="@color/my_primary"
     android:fontFamily="sans-serif"
-    android:visibility="invisible"
-    >
+    android:visibility="invisible">
     <!-- header-->
     <RelativeLayout
         android:id="@+id/map_nav_settings_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="left|top"
-        android:paddingBottom="8dp"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"
         android:paddingTop="8dp"
-        >
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp">
 
         <ImageButton
             android:id="@+id/nav_settings_foot_btn"
@@ -30,8 +27,7 @@
             android:focusable="true"
             android:padding="10dp"
 
-            android:src="@drawable/ic_directions_walk_white_24dp"
-            />
+            android:src="@drawable/ic_directions_walk_white_24dp" />
 
         <ImageButton
             android:id="@+id/nav_settings_bike_btn"
@@ -41,8 +37,7 @@
             android:clickable="true"
             android:focusable="true"
             android:padding="10dp"
-            android:src="@drawable/ic_directions_bike_white_24dp"
-            />
+            android:src="@drawable/ic_directions_bike_white_24dp" />
 
         <ImageButton
             android:id="@+id/nav_settings_car_btn"
@@ -52,8 +47,7 @@
             android:clickable="true"
             android:focusable="true"
             android:padding="10dp"
-            android:src="@drawable/ic_directions_car_white_24dp"
-            />
+            android:src="@drawable/ic_directions_car_white_24dp" />
 
 
         <ImageButton
@@ -64,15 +58,14 @@
             android:clickable="true"
             android:focusable="true"
             android:padding="10dp"
-            android:src="@drawable/ic_keyboard_arrow_down_white_24dp"
-            />
+            android:src="@drawable/ic_keyboard_arrow_down_white_24dp" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="0.5dp"
             android:layout_below="@+id/nav_settings_foot_btn"
             android:layout_marginTop="8dp"
-            android:background="@color/my_divider"/>
+            android:background="@color/my_divider" />
     </RelativeLayout>
 
     <!-- from field-->
@@ -86,11 +79,10 @@
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:gravity="left|center_vertical"
-        android:paddingBottom="8dp"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"
         android:paddingTop="8dp"
-        >
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp">
 
         <ImageView
             android:id="@+id/nav_settings_start"
@@ -98,8 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="8dp"
             android:padding="8dp"
-            android:src="@drawable/ic_location_start_white_24dp"
-            />
+            android:src="@drawable/ic_location_start_white_24dp" />
 
         <TextView
             android:id="@+id/nav_settings_from_local_tv"
@@ -109,7 +100,7 @@
             android:layout_toRightOf="@id/nav_settings_start"
             android:text="@string/from_loc"
             android:textColor="@color/my_divider"
-            android:textSize="12sp"/>
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/nav_settings_from_local_et"
@@ -118,10 +109,10 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="94dp"
             android:layout_marginRight="44dp"
-            android:text=".........."
             android:singleLine="true"
+            android:text=".........."
             android:textColorHint="@color/my_secondary_text"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
         <ImageButton
             android:id="@+id/nav_settings_from_search_btn"
@@ -131,8 +122,7 @@
             android:clickable="true"
             android:focusable="true"
             android:padding="10dp"
-            android:src="@drawable/ic_search_white_24dp"
-            />
+            android:src="@drawable/ic_search_white_24dp" />
 
         <ImageButton
             android:id="@+id/nav_settings_from_fav_btn"
@@ -142,8 +132,7 @@
             android:clickable="true"
             android:focusable="true"
             android:padding="10dp"
-            android:src="@drawable/ic_star_outline_white_24dp"
-            />
+            android:src="@drawable/ic_star_outline_white_24dp" />
 
         <ImageButton
             android:id="@+id/nav_settings_from_cur_btn"
@@ -153,8 +142,7 @@
             android:clickable="true"
             android:focusable="true"
             android:padding="10dp"
-            android:src="@drawable/ic_my_location_white_24dp"
-            />
+            android:src="@drawable/ic_my_location_white_24dp" />
 
         <ImageButton
             android:id="@+id/nav_settings_from_del_btn"
@@ -165,8 +153,7 @@
             android:focusable="true"
             android:padding="10dp"
             android:src="@drawable/ic_clear_white_24dp"
-            android:visibility="invisible"
-            />
+            android:visibility="invisible" />
 
     </RelativeLayout>
     <!--to field-->
@@ -180,10 +167,10 @@
         android:descendantFocusability="beforeDescendants"
         android:focusable="true"
         android:focusableInTouchMode="true"
-        android:paddingBottom="8dp"
         android:paddingLeft="16dp"
+        android:paddingTop="8dp"
         android:paddingRight="16dp"
-        android:paddingTop="8dp">
+        android:paddingBottom="8dp">
 
         <ImageView
             android:id="@+id/nav_settings_end"
@@ -191,8 +178,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="8dp"
             android:padding="8dp"
-            android:src="@drawable/ic_location_end_white_24dp"
-            />
+            android:src="@drawable/ic_location_end_white_24dp" />
 
         <TextView
             android:id="@+id/nav_settings_to_local_tv"
@@ -202,7 +188,7 @@
             android:layout_toRightOf="@id/nav_settings_end"
             android:text="@string/to_loc"
             android:textColor="@color/my_divider"
-            android:textSize="12sp"/>
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/nav_settings_to_local_et"
@@ -211,10 +197,10 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="94dp"
             android:layout_marginRight="44dp"
-            android:text=".........."
             android:singleLine="true"
+            android:text=".........."
             android:textColorHint="@color/my_secondary_text"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
         <ImageButton
             android:id="@+id/nav_settings_to_search_btn"
@@ -224,8 +210,7 @@
             android:clickable="true"
             android:focusable="true"
             android:padding="10dp"
-            android:src="@drawable/ic_search_white_24dp"
-            />
+            android:src="@drawable/ic_search_white_24dp" />
 
         <ImageButton
             android:id="@+id/nav_settings_to_fav_btn"
@@ -235,8 +220,7 @@
             android:clickable="true"
             android:focusable="true"
             android:padding="10dp"
-            android:src="@drawable/ic_star_outline_white_24dp"
-            />
+            android:src="@drawable/ic_star_outline_white_24dp" />
 
         <ImageButton
             android:id="@+id/nav_settings_to_sel_btn"
@@ -246,8 +230,7 @@
             android:clickable="true"
             android:focusable="true"
             android:padding="10dp"
-            android:src="@drawable/ic_filter_center_focus_white_24dp"
-            />
+            android:src="@drawable/ic_filter_center_focus_white_24dp" />
 
         <ImageButton
             android:id="@+id/nav_settings_to_del_btn"
@@ -258,8 +241,7 @@
             android:focusable="true"
             android:padding="10dp"
             android:src="@drawable/ic_clear_white_24dp"
-            android:visibility="invisible"
-            />
+            android:visibility="invisible" />
 
     </RelativeLayout>
 </RelativeLayout>

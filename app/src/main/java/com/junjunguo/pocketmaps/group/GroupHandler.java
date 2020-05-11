@@ -88,7 +88,7 @@ public class GroupHandler {
         return GroupHandler.groupUID;
     }
 
-    public void setLocalDestination(double latitude, double longitude) {
+    public static void setLocalDestination(double latitude, double longitude) {
         destination.set(0, latitude);
         destination.set(1, longitude);
     }
@@ -104,8 +104,8 @@ public class GroupHandler {
      * Read destination from firebase.
      * @return destination geopoint.
      */
-    public static ArrayList getDestination() {
-        destination = groupData.get("Destination");
+    public static ArrayList<Double> getDestination() {
+        destination = (ArrayList<Double>) groupData.get("Destination");
         return destination;
     }
 
@@ -114,6 +114,7 @@ public class GroupHandler {
      * @return array of UID and locations.
      */
     public static Map<String, ArrayList> getLocations() {
+        // THIS NEEDS FIXING. STATIC VARIABLES WAS A STUPID IDEA.
         locations = groupData;
         try {
             locations.remove("Destination");
@@ -165,6 +166,7 @@ public class GroupHandler {
      */
     public boolean leaveGroup() {
         // TODO remove user's location field from firebase
+        // TODO remove map markers
 
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
@@ -190,6 +192,8 @@ public class GroupHandler {
      * Somehow notify other members.
      */
     public void deleteGroup() {
+        //TODO remove map markers
+
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         db.collection("Groups").document(groupUID)
                 .delete()
