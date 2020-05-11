@@ -222,10 +222,11 @@ public class MapActivity extends Activity implements LocationListener {
         if(GroupHandler.getLeaderState() == GroupHandler.LeaderStateEnum.LEADER)
         {
             // TODO Post destination OR change to only post destination when updated.
+            //GroupHandler.setLocalDestination(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
+            GroupHandler.postDestination(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
         }
 
         GroupHandler.getGroupData();
-        // TODO Fix program keeps running before getGroupData() returns
         GroupHandler.postLocation(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
 
         Map<String, ArrayList> locations = new HashMap<>();
@@ -238,6 +239,16 @@ public class MapActivity extends Activity implements LocationListener {
             GeoPoint geoPoint = new GeoPoint((double) i.get(0), (double) i.get(1));
             MapHandler.getMapHandler().setRideAlongPoint(this, (GeoPoint) geoPoint);
         }
+
+        ArrayList<Double> latLong = GroupHandler.getDestination();
+
+        if (latLong == null) {return;} //Again, terrible fix...
+        else if (Destination.getDestination().getEndPoint().getLatitude() == latLong.get(0) && Destination.getDestination().getEndPoint().getLongitude() == latLong.get(1)) {return;}
+
+        GeoPoint destination = new GeoPoint(latLong.get(0), latLong.get(1));
+        Destination.getDestination().setEndPoint(destination, "GroupDestination");
+        GeoPoint userLocation = new GeoPoint(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
+        Destination.getDestination().setStartPoint(userLocation, "UserLocation");
     }
     
     public MapActions getMapActions() { return mapActions; }
@@ -295,6 +306,7 @@ public class MapActivity extends Activity implements LocationListener {
         Destination.getDestination().setStartPoint(null, null);
         Destination.getDestination().setEndPoint(null, null);
         System.gc();
+        // TODO handle leaving groups etc....
     }
 
     /**

@@ -43,7 +43,7 @@ public class GroupHandler {
     private static DocumentSnapshot groupDocument = null;
     private static Map<String, ArrayList> groupData = null;
     private static Map<String, ArrayList> locations = null;
-    private static ArrayList destination = null;
+    private static ArrayList<Double> destination = null;
 
     /**
      * Called by MapActivity.updateCurrentLocation()
@@ -88,22 +88,23 @@ public class GroupHandler {
         return GroupHandler.groupUID;
     }
 
+    public void setLocalDestination(double latitude, double longitude) {
+        destination.set(0, latitude);
+        destination.set(1, longitude);
+    }
+
     /**
      * Post destination to firebase.
-     * @return GeoPoint of posted destination.
      */
-    public void setDestination(double latitude, double longitude) {
-        if(leaderState == LeaderStateEnum.LEADER)
-        {
-            // Post to firebase.
-        }
+    public static void postDestination(double latitude, double longitude) {
+
     }
 
     /**
      * Read destination from firebase.
      * @return destination geopoint.
      */
-    public ArrayList getDestination() {
+    public static ArrayList getDestination() {
         destination = groupData.get("Destination");
         return destination;
     }
