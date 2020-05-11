@@ -31,6 +31,10 @@ import org.oscim.android.MapView;
 import org.oscim.core.GeoPoint;
 
 import java.io.File;
+import java.security.acl.Group;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * This file is part of PocketMaps
@@ -38,6 +42,9 @@ import java.io.File;
  * Created by GuoJunjun <junjunguo.com> on July 04, 2015.
  */
 public class MapActivity extends Activity implements LocationListener {
+
+    private final static String TAG = "MAP_ACTIVITY";
+
     enum PermissionStatus { Enabled, Disabled, Requesting, Unknown };
     private MapView mapView;
     private static Location mCurrentLocation;
@@ -203,23 +210,47 @@ public class MapActivity extends Activity implements LocationListener {
             }
             MapHandler.getMapHandler().setCustomPoint(this, mcLatLong);
 
-            if(GroupHandler.getIsGrouped())
-            {
+            //if(GroupHandler.getIsGrouped())
+            //{
                 /**
                  * Call pollLocations() to get updated locations from firebase.
                  * Then use setRideAlongPoint() for all group members.
                  */
-                GroupHandler.getLocations();
-            }
+            //    GroupHandler.getLocations();
+            //}
 
             //HERE HERE HERE
-            GeoPoint tempGeoPoint = new GeoPoint(mCurrentLocation.getLatitude()+0.1, mCurrentLocation.getLongitude()+0.1);
-            MapHandler.getMapHandler().setRideAlongPoint(this, tempGeoPoint);
+            //GeoPoint tempGeoPoint = new GeoPoint(mCurrentLocation.getLatitude()+0.1, mCurrentLocation.getLongitude()+0.1);
+            //MapHandler.getMapHandler().setRideAlongPoint(this, tempGeoPoint);
             //HERE HERE HERE
 
             mapActions.showPositionBtn.setImageResource(R.drawable.ic_my_location_white_24dp);
         } else {
             mapActions.showPositionBtn.setImageResource(R.drawable.ic_location_searching_white_24dp);
+        }
+    }
+
+    private void updateGroupLocations() {
+        if(GroupHandler.getIsGrouped() == false) {return;}
+
+        if(GroupHandler.getLeaderState() == GroupHandler.LeaderStateEnum.LEADER)
+        {
+            // TODO Post destination OR change to only post destination when updated.
+        }
+
+        GroupHandler.getGroupData();
+        // TODO Fix program keeps running before getGroupData() returns
+        GroupHandler.postLocation(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
+
+        Map<String, ArrayList> locations = new HashMap<>();
+        locations = GroupHandler.getLocations();
+
+        if(locations == null) {return;} //Terrible fix but should work for now.
+
+        for (ArrayList i : locations.values())
+        {
+            GeoPoint geoPoint = new GeoPoint((double) i.get(0), (double) i.get(1));
+            MapHandler.getMapHandler().setRideAlongPoint(this, (GeoPoint) geoPoint);
         }
     }
     
@@ -319,6 +350,7 @@ public class MapActivity extends Activity implements LocationListener {
      */
     @Override public void onLocationChanged(Location location) {
         updateCurrentLocation(location);
+        updateGroupLocations();
     }
 
     @Override public void onStatusChanged(String provider, int status, Bundle extras) {

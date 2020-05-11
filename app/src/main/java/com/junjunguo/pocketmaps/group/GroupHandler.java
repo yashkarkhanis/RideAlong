@@ -20,8 +20,11 @@ import com.junjunguo.pocketmaps.model.GroupMember;
 
 import org.oscim.core.GeoPoint;
 
+import java.lang.reflect.Array;
 import java.security.acl.Group;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class GroupHandler {
@@ -38,15 +41,16 @@ public class GroupHandler {
     private static String lastMessage = null;
     private static String groupUID = "BLANK";
     private static DocumentSnapshot groupDocument = null;
-    private static Map<String, Object> groupData = null;
-    private static Map<String, Object> locations = null;
-    private static GeoPoint destination = null;
+    private static Map<String, ArrayList> groupData = null;
+    private static Map<String, ArrayList> locations = null;
+    private static ArrayList destination = null;
 
     /**
      * Called by MapActivity.updateCurrentLocation()
      * Retrieve relevant group document from firebase so it can be easily accessed.
      */
-    public void getGroupData() {
+
+    public static void getGroupData() {
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         DocumentReference docRef = db.collection("Groups").document(groupUID);
         docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
@@ -55,8 +59,12 @@ public class GroupHandler {
                 if (task.isSuccessful()) {
                     groupDocument = task.getResult();
                     if (groupDocument.exists()) {
-                        Log.d(TAG, "DocumentSnapshot data");
-                        groupData = groupDocument.getData();
+                        Log.d(TAG, "Got GroupData");
+                        Map<String, Object> data = groupDocument.getData();
+                        groupData = new HashMap<String, ArrayList>();
+                        for (Map.Entry<String, Object> entry : data.entrySet()) {
+                            groupData.put(entry.getKey(), (ArrayList) entry.getValue());
+                        }
                     } else {
                         Log.d(TAG, "No such document / Document deleted");
                         // TODO here quit group since document is not found.
@@ -97,8 +105,8 @@ public class GroupHandler {
      * Read destination from firebase.
      * @return destination geopoint.
      */
-    public GeoPoint getDestination() {
-        destination = (GeoPoint) groupData.get("Destination");
+    public ArrayList getDestination() {
+        destination = groupData.get("Destination");
         return destination;
     }
 
@@ -106,13 +114,45 @@ public class GroupHandler {
      * Read user locations from firebase.
      * @return array of UID and locations.
      */
-    public static Map<String, Object> getLocations() {
+    public static Map<String, ArrayList> getLocations() {
         locations = groupData;
-        locations.remove("Destination");
+        try {
+            locations.remove("Destination");
+        } catch (Exception e) {
+            //Probably needs to be changed to only check for null.
+            // Do nothing, simply means no destination was uploaded to firebase yet.
+        }
         return locations;
     }
 
-    public void joinGroup(final String groupUID) {
+    public static void postLocation(double latitude, double longitude) {
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+
+        List<Double> geoPoint = new ArrayList<>();
+        geoPoint.add(0, latitude);
+        geoPoint.add(1, longitude);
+
+        Map<String, Object> locationMap = new HashMap<>();
+        locationMap.put(user.getUid(), geoPoint);
+
+        db.collection("Groups").document(groupUID)
+                .update(locationMap)
+                .addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void aVoid) {
+                        Log.d(TAG, "DocumentSnapshot successfully written!");
+                    }
+                })
+                .addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Log.w(TAG, "Error writing document", e);
+                    }
+                });
+    }
+
+    public void joinGroup(String groupUID) {
         // TODO Currently in GroupDialog.java, consider moving here.
     }
 
@@ -193,7 +233,7 @@ public class GroupHandler {
         final String timeStamp = Long.toString(lTimeStamp);
 
         Map<String, Object> messageMap = new HashMap<>();
-        messageMap.put(timeStamp, "Test message.");
+        messageMap.put(timeStamp, message);
 
         db.collection("Groups_messages").document(groupUID)
                 .set(messageMap)
@@ -211,7 +251,7 @@ public class GroupHandler {
                 });
     }
 
-    public LeaderStateEnum getLeaderState() {
+    public static LeaderStateEnum getLeaderState() {
         return leaderState;
     }
 

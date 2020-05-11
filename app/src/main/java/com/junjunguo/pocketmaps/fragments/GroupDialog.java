@@ -17,13 +17,18 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.GeoPoint;
 import com.junjunguo.pocketmaps.R;
+import com.junjunguo.pocketmaps.activities.MapActivity;
 import com.junjunguo.pocketmaps.activities.ui.login.RegisterActivity;
 import com.junjunguo.pocketmaps.group.GroupHandler;
+import com.junjunguo.pocketmaps.map.MapHandler;
 
 import org.w3c.dom.Text;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -114,22 +119,15 @@ public class GroupDialog {
             Log.d(TAG, "User equals NULL");
         }
 
-        /**
-         * Group UID:
-         * Get local time as int / long
-         * Get int value of username or fb user
-         * Combine and reduce to 8 digits
-         */
-
         Long lTimeStamp = System.currentTimeMillis();
-
-
-        //int groupUID = ThreadLocalRandom.current().nextInt(RANDOM_MIN, RANDOM_MAX + 1);
         final String groupUID = Long.toString(lTimeStamp);
 
+        List<Double> geoPoint = new ArrayList<>();
+        geoPoint.add(0, MapActivity.getmCurrentLocation().getLatitude());
+        geoPoint.add(1, MapActivity.getmCurrentLocation().getLongitude());
 
         Map<String, Object> groupData = new HashMap<>();
-        groupData.put(user.getUid(), "Location Geopoint");
+        groupData.put(user.getUid(), geoPoint);
 
         // Add a new document with a generated ID
         db.collection("Groups").document(String.valueOf(groupUID))
@@ -162,9 +160,12 @@ public class GroupDialog {
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 FirebaseFirestore db = FirebaseFirestore.getInstance();
 
+                List<Double> geoPoint = new ArrayList<>();
+                geoPoint.add(0, MapActivity.getmCurrentLocation().getLatitude());
+                geoPoint.add(1, MapActivity.getmCurrentLocation().getLongitude());
+
                 Map<String, Object> groupData = new HashMap<>();
-                //groupData.put(user.getUid(), "Location Geopoint");
-                groupData.put("User_2", "Location Geopoint");
+                groupData.put(user.getUid(), geoPoint);
 
                 db.collection("Groups").document(String.valueOf(groupUID))
                         .update(groupData)
