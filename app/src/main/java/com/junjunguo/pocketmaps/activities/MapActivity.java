@@ -225,8 +225,8 @@ public class MapActivity extends Activity implements LocationListener {
         if(GroupHandler.getLeaderState() == GroupHandler.LeaderStateEnum.LEADER)
         {
             // TODO Post destination OR change to only post destination when updated.
-            GroupHandler.setLocalDestination(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
-            GroupHandler.postDestination(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
+            //GroupHandler.setLocalDestination(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
+            //GroupHandler.postDestination(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
         }
 
         GroupHandler.getGroupData();
@@ -272,6 +272,7 @@ public class MapActivity extends Activity implements LocationListener {
 
         // 4. Navigation start
         //Navigator.getNavigator().setNaviStart(this, true);
+        // Seems like this line isn't needed
 
     }
     
