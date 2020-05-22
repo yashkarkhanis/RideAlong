@@ -118,9 +118,11 @@ public class GroupHandler {
         locations = groupData;
         try {
             locations.remove("Destination");
+            locations.remove(FirebaseAuth.getInstance().getCurrentUser().getUid());
         } catch (Exception e) {
             //Probably needs to be changed to only check for null.
             // Do nothing, simply means no destination was uploaded to firebase yet.
+            // Also remove user's own location.
         }
         return locations;
     }

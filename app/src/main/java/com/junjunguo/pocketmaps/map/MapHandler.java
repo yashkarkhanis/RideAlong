@@ -77,6 +77,7 @@ public class MapHandler
   File mapsFolder;
   PointList trackingPointList = new PointList();
   private int customIcon = R.drawable.ic_my_location_dark_24dp;
+  private int groupIcon = R.drawable.ic_directions_car_orange_24dp;
   private MapFileTileSource tileSource;
   /**
    * need to know if path calculating status change; this will trigger MapActions function
@@ -297,7 +298,7 @@ public class MapHandler
       }
       else
       {
-          rideAlongLayer.addItem(createMarkerItem(activity, p, customIcon, 0.5f, 0.5f));
+          rideAlongLayer.addItem(createMarkerItem(activity, p, groupIcon, 0.5f, 0.5f));
           mapView.map().updateMap();
       }
   }
