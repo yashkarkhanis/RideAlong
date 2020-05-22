@@ -292,11 +292,10 @@ public class MapHandler
   public void setRideAlongPoint(Activity activity, GeoPoint p)
   {
       if(rideAlongLayer == null) { return; } // Not loaded yet.
-      if(p == null)
-      {
-          rideAlongLayer.removeAllItems();
-      }
-      else
+
+      rideAlongLayer.removeAllItems();
+      
+      if(p != null)
       {
           rideAlongLayer.addItem(createMarkerItem(activity, p, groupIcon, 0.5f, 0.5f));
           mapView.map().updateMap();
