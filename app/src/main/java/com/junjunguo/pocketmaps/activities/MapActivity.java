@@ -272,7 +272,7 @@ public class MapActivity extends Activity implements LocationListener {
 
         // 4. Navigation start
         //Navigator.getNavigator().setNaviStart(this, true);
-        // Seems like this line isn't needed
+        // This line causes a crash
 
     }
     

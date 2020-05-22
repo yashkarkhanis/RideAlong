@@ -142,12 +142,14 @@ public class GroupDialog {
                         GroupHandler.setIsGrouped(true);
                         GroupHandler.setLeaderState(GroupHandler.LeaderStateEnum.LEADER);
                         GroupHandler.setGroupUID(groupUID);
+                        Toast.makeText(activity, "Group created successfully.", Toast.LENGTH_SHORT).show();
                     }
                 })
                 .addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
                         Log.w(TAG, "Error writing document", e);
+                        Toast.makeText(activity, "Failed to create group.", Toast.LENGTH_SHORT).show();
                     }
                 });
     }
@@ -173,18 +175,21 @@ public class GroupDialog {
                             @Override
                             public void onSuccess(Void aVoid) {
                                 Log.d(TAG, "DocumentSnapshot successfully written!");
-                                TextView uid = (TextView) activity.findViewById(R.id.gp_id_field);
+                                TextView uid = (TextView) activity.findViewById(R.id.gj_id_field);
+                                uid.setEnabled(false);
                                 uid.setText(groupUID);
                                 disableJoinBtn();
                                 GroupHandler.setIsGrouped(true);
                                 GroupHandler.setLeaderState(GroupHandler.LeaderStateEnum.NOT_LEADER);
                                 GroupHandler.setGroupUID(groupUID);
+                                Toast.makeText(activity, "Joined group " + groupUID, Toast.LENGTH_SHORT).show();
                             }
                         })
                         .addOnFailureListener(new OnFailureListener() {
                             @Override
                             public void onFailure(@NonNull Exception e) {
                                 Log.w(TAG, "Error writing document", e);
+                                Toast.makeText(activity, "Failed to join group.", Toast.LENGTH_SHORT).show();
                             }
                         });
             }

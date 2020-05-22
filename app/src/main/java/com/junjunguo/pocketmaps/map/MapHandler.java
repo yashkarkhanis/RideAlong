@@ -294,7 +294,7 @@ public class MapHandler
       if(rideAlongLayer == null) { return; } // Not loaded yet.
 
       rideAlongLayer.removeAllItems();
-      
+
       if(p != null)
       {
           rideAlongLayer.addItem(createMarkerItem(activity, p, groupIcon, 0.5f, 0.5f));
