@@ -1087,4 +1087,8 @@ public class MapActions implements NavigatorListener, MapHandlerListener {
         Log.i(MapActions.class.getName(), str);
     }
 
+    public GroupDialog getGroupDialog() {
+        return groupDialog;
+    }
+
 }

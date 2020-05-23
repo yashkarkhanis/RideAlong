@@ -84,7 +84,7 @@ public class GroupHandler {
        GroupHandler.groupUID = UID;
     }
 
-    public String getGroupUID() {
+    public static String getGroupUID() {
         return GroupHandler.groupUID;
     }
 

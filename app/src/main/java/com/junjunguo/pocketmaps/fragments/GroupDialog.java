@@ -1,6 +1,7 @@
 package com.junjunguo.pocketmaps.fragments;
 
 import android.app.Activity;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.util.Log;
 import android.view.View;
@@ -43,11 +44,13 @@ public class GroupDialog {
     private Activity activity;
     private ViewGroup groupCreateVP, groupJoinVP, title;
     private Button createBtn, joinBtn;
+    private SharedPreferences sharedPreferences;
 
     public GroupDialog (Activity activity) {
         this.activity = activity;
         groupCreateVP = (ViewGroup) activity.findViewById(R.id.group_create_layout);
         groupJoinVP = (ViewGroup) activity.findViewById(R.id.group_join_layout);
+        initJoinBtn();
     }
 
     public void showGroupDialog (final ViewGroup calledFromVP, final int target) {
@@ -56,7 +59,7 @@ public class GroupDialog {
             initCancelBtn(groupCreateVP, calledFromVP, RA_GROUP_CREATE);
             groupCreateVP.setVisibility(View.VISIBLE);
         } else if (target == RA_GROUP_JOIN) {
-            initJoinBtn();
+            //initJoinBtn();
             initCancelBtn(groupJoinVP, calledFromVP, RA_GROUP_JOIN);
             groupJoinVP.setVisibility(View.VISIBLE);
         }
@@ -101,7 +104,7 @@ public class GroupDialog {
         joinBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                joinGroupWithUID();
+                joinGroupWithUID(null);
             }
         });
     }
@@ -142,6 +145,13 @@ public class GroupDialog {
                         GroupHandler.setIsGrouped(true);
                         GroupHandler.setLeaderState(GroupHandler.LeaderStateEnum.LEADER);
                         GroupHandler.setGroupUID(groupUID);
+
+                        SharedPreferences.Editor editor = sharedPreferences.edit();
+                        editor.putBoolean("isGrouped", true);
+                        editor.putBoolean("isLeader", true);
+                        editor.putString("groupUID", groupUID);
+                        editor.commit();
+
                         Toast.makeText(activity, "Group created successfully.", Toast.LENGTH_SHORT).show();
                     }
                 })
@@ -154,8 +164,16 @@ public class GroupDialog {
                 });
     }
 
-    private void joinGroupWithUID () {
+    private void joinGroupWithUID (String restoreUID) {
         TextView uidTextView = (TextView) activity.findViewById(R.id.gj_id_field);
+        Log.w(TAG, restoreUID);
+        if(restoreUID != null) {
+            uidTextView.setText(restoreUID);
+        }
+        else if (restoreUID.equals("BLANK")) {
+            return;
+        }
+
         if (uidTextView.getText() != null) {
             final String groupUID = uidTextView.getText().toString();
             if (!groupUID.isEmpty()) {
@@ -182,6 +200,13 @@ public class GroupDialog {
                                 GroupHandler.setIsGrouped(true);
                                 GroupHandler.setLeaderState(GroupHandler.LeaderStateEnum.NOT_LEADER);
                                 GroupHandler.setGroupUID(groupUID);
+
+                                SharedPreferences.Editor editor = sharedPreferences.edit();
+                                editor.putBoolean("isGrouped", true);
+                                editor.putBoolean("isLeader", false);
+                                editor.putString("groupUID", groupUID);
+                                editor.commit();
+
                                 Toast.makeText(activity, "Joined group " + groupUID, Toast.LENGTH_SHORT).show();
                             }
                         })
@@ -194,5 +219,13 @@ public class GroupDialog {
                         });
             }
         }
+    }
+
+    public void restoreGroupStatus(String restoreUID) {
+        joinGroupWithUID(restoreUID);
+    }
+
+    public void setPreferences(SharedPreferences sharedPreferences) {
+        this.sharedPreferences = sharedPreferences;
     }
 }

@@ -3,6 +3,7 @@ package com.junjunguo.pocketmaps.activities;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
@@ -16,6 +17,7 @@ import android.widget.Toast;
 
 import com.junjunguo.pocketmaps.R;
 import com.junjunguo.pocketmaps.fragments.Dialog;
+import com.junjunguo.pocketmaps.fragments.GroupDialog;
 import com.junjunguo.pocketmaps.group.GroupHandler;
 import com.junjunguo.pocketmaps.map.Destination;
 import com.junjunguo.pocketmaps.map.MapHandler;
@@ -103,6 +105,21 @@ public class MapActivity extends Activity implements LocationListener {
         checkGpsAvailability();
         ensureLastLocationInit();
         updateCurrentLocation(null);
+
+        // Restore group state
+        GroupDialog groupDialog = mapActions.getGroupDialog();
+        SharedPreferences sharedPreferences = getSharedPreferences("RideAlongPreferences", Context.MODE_PRIVATE);
+        groupDialog.setPreferences(sharedPreferences);
+
+        boolean isGrouped = sharedPreferences.getBoolean("isGrouped", false);
+        if(isGrouped) {
+            GroupHandler.setIsGrouped(true);
+            GroupHandler.setGroupUID(sharedPreferences.getString("groupUID", "BLANK"));
+            if(sharedPreferences.getBoolean("isLeader", false)) {
+                GroupHandler.setLeaderState(GroupHandler.LeaderStateEnum.LEADER);
+            }
+            groupDialog.restoreGroupStatus(GroupHandler.getGroupUID());
+        }
     }
     
     public void ensureLocationListener(boolean showMsgEverytime)
@@ -404,5 +421,24 @@ public class MapActivity extends Activity implements LocationListener {
         Toast.makeText(getBaseContext(), str, Toast.LENGTH_SHORT).show();
       }
       catch (Exception e) { e.printStackTrace(); }
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
+        if(GroupHandler.getIsGrouped()) {
+            savedInstanceState.putBoolean("isGrouped", true);
+            savedInstanceState.putString("groupUID", GroupHandler.getGroupUID());
+            if(GroupHandler.getLeaderState() == GroupHandler.LeaderStateEnum.LEADER) {
+                savedInstanceState.putBoolean("isLeader", true);
+            }
+            else {savedInstanceState.putBoolean("isLeader", false);}
+        }
+        else {
+            savedInstanceState.putBoolean("isGrouped", false);
+            savedInstanceState.putString("groupUID", "BLANK");
+            savedInstanceState.putBoolean("isLeader", false);
+        }
+
     }
 }
