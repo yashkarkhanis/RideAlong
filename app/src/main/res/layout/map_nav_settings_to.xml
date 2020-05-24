@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/nav_settings_to_layout"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
@@ -15,11 +14,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="left|center_vertical"
-        android:paddingBottom="8dp"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"
         android:paddingTop="8dp"
-        >
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp">
 
         <ImageView
             android:id="@+id/header_image_view_to"
@@ -27,8 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="16dp"
             android:padding="8dp"
-            android:src="@drawable/ic_location_start_white_24dp"
-            />
+            android:src="@drawable/ic_location_start_white_24dp" />
 
         <TextView
             android:id="@+id/map_nav_settings_to_local"
@@ -38,7 +35,7 @@
             android:layout_toRightOf="@id/header_image_view_to"
             android:text="@string/to_location"
             android:textColor="@color/my_divider"
-            android:textSize="16sp"/>
+            android:textSize="16sp" />
 
         <ImageButton
             android:id="@+id/nav_settings_to_clear_btn"
@@ -48,15 +45,14 @@
             android:clickable="true"
             android:focusable="true"
             android:padding="8dp"
-            android:src="@drawable/ic_keyboard_arrow_down_white_24dp"
-            />
+            android:src="@drawable/ic_keyboard_arrow_down_white_24dp" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@+id/header_image_view_to"
             android:layout_marginTop="8dp"
-            android:background="@color/my_divider"/>
+            android:background="@color/my_divider" />
     </RelativeLayout>
 
     <LinearLayout
@@ -66,24 +62,23 @@
         android:layout_below="@+id/nav_settings_to_header"
         android:gravity="left|center_vertical"
         android:orientation="horizontal"
-        android:paddingBottom="8dp"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"
         android:paddingTop="8dp"
-        >
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="16dp"
             android:padding="8dp"
-            android:src="@drawable/ic_star_outline_white_24dp"/>
+            android:src="@drawable/ic_star_outline_white_24dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/choose_from_favorite"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
     </LinearLayout>
 
     <!--point on map-->
@@ -94,24 +89,23 @@
         android:layout_below="@+id/map_nav_settings_to_favorite"
         android:gravity="left|center_vertical"
         android:orientation="horizontal"
-        android:paddingBottom="8dp"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"
         android:paddingTop="8dp"
-        >
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="16dp"
             android:padding="8dp"
-            android:src="@drawable/ic_filter_center_focus_white_24dp"/>
+            android:src="@drawable/ic_filter_center_focus_white_24dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/point_on_map"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
     </LinearLayout>
 
@@ -123,24 +117,23 @@
         android:layout_below="@+id/map_nav_settings_to_point"
         android:gravity="left|center_vertical"
         android:orientation="horizontal"
-        android:paddingBottom="8dp"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"
         android:paddingTop="8dp"
-        >
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="16dp"
             android:padding="8dp"
-            android:src="@drawable/ic_my_location_white_24dp"/>
+            android:src="@drawable/ic_my_location_white_24dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/use_current_location"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
     </LinearLayout>
 
     <!-- search location-->
@@ -151,24 +144,23 @@
         android:layout_below="@+id/map_nav_settings_to_current"
         android:gravity="left|center_vertical"
         android:orientation="horizontal"
-        android:paddingBottom="8dp"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"
         android:paddingTop="8dp"
-        >
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="16dp"
             android:padding="8dp"
-            android:src="@drawable/ic_search_white_24dp"/>
+            android:src="@drawable/ic_search_white_24dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/search_location"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
     </LinearLayout>
 
@@ -179,24 +171,23 @@
         android:layout_below="@+id/map_nav_settings_to_search"
         android:gravity="left|center_vertical"
         android:orientation="horizontal"
-        android:paddingBottom="8dp"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"
         android:paddingTop="8dp"
-        >
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="16dp"
             android:padding="8dp"
-            android:src="@drawable/ic_space_bar_white_24dp"/>
+            android:src="@drawable/ic_space_bar_white_24dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/enter_lat_lon"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
     </LinearLayout>
 

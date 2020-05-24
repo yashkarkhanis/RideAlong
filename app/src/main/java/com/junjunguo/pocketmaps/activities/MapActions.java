@@ -3,6 +3,7 @@ package com.junjunguo.pocketmaps.activities;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.ColorStateList;
 import android.location.Address;
 import android.location.Location;
@@ -24,11 +25,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.junjunguo.pocketmaps.R;
+import com.junjunguo.pocketmaps.db.FBauth;
 import com.junjunguo.pocketmaps.fragments.AppSettings;
 import com.junjunguo.pocketmaps.fragments.AppSettings.SettType;
 import com.junjunguo.pocketmaps.fragments.GroupDialog;
 import com.junjunguo.pocketmaps.fragments.InstructionAdapter;
 import com.junjunguo.pocketmaps.fragments.SpinnerAdapter;
+import com.junjunguo.pocketmaps.group.GroupHandler;
 import com.junjunguo.pocketmaps.map.Destination;
 import com.junjunguo.pocketmaps.map.MapHandler;
 import com.junjunguo.pocketmaps.map.Navigator;
@@ -44,8 +47,8 @@ import org.oscim.android.MapView;
 import org.oscim.core.GeoPoint;
 import org.oscim.core.MapPosition;
 
-import java.security.acl.Group;
 import java.util.ArrayList;
+import java.util.Map;
 
 /**
  * This file is part of PocketMaps
@@ -67,7 +70,7 @@ public class MapActions implements NavigatorListener, MapHandlerListener {
     private Activity activity;
     private AppSettings appSettings;
     private GroupDialog groupDialog;
-    protected FloatingActionButton showPositionBtn, navigationBtn, settingsBtn, settingsSetBtn, settingsNavBtn, controlBtn, favourBtn, groupBtn, groupCreateBtn, groupJoinBtn;
+    protected FloatingActionButton showPositionBtn, navigationBtn, settingsBtn, settingsSetBtn, settingsNavBtn, settingsSignOutBtn, controlBtn, favourBtn, groupBtn, groupCreateBtn, groupJoinBtn;
     protected FloatingActionButton zoomInBtn, zoomOutBtn;
     private ViewGroup sideBarVP, sideBarMenuVP, southBarSettVP, southBarFavourVP, southBarGroupVP ,navSettingsVP, navSettingsFromVP, navSettingsToVP,
             navInstructionListVP, navTopVP;
@@ -81,6 +84,7 @@ public class MapActions implements NavigatorListener, MapHandlerListener {
         this.settingsBtn = (FloatingActionButton) activity.findViewById(R.id.map_southbar_settings_fab);
         this.settingsSetBtn = (FloatingActionButton) activity.findViewById(R.id.map_southbar_sett_sett_fab);
         this.settingsNavBtn = (FloatingActionButton) activity.findViewById(R.id.map_southbar_sett_nav_fab);
+        this.settingsSignOutBtn = (FloatingActionButton) activity.findViewById(R.id.map_southbar_sett_profile_fab);
         this.favourBtn = (FloatingActionButton) activity.findViewById(R.id.map_southbar_favour_fab);
         this.controlBtn = (FloatingActionButton) activity.findViewById(R.id.map_sidebar_control_fab);
         this.groupBtn = (FloatingActionButton) activity.findViewById(R.id.map_southbar_group_fab);
@@ -131,6 +135,26 @@ public class MapActions implements NavigatorListener, MapHandlerListener {
           @Override public void onClick(View v) {
               appSettings.showAppSettings(sideBarVP, SettType.Navi);
           }
+        });
+        settingsSignOutBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(!GroupHandler.getIsGrouped()) { FBauth.userSignOut(); }
+                else {
+                    if(GroupHandler.getLeaderState() == GroupHandler.LeaderStateEnum.LEADER) {
+                        // 1. IF LEADER, delete group from firebase.
+                        groupDialog.deleteGroup();
+                    } else {
+                        // 2. IF NOT LEADER, leave group from firebase.
+                        groupDialog.leaveGroup();
+                    }
+                    // 3. Return
+                    return;
+                }
+                Intent returnToMain = new Intent(activity, MainActivity.class);
+                returnToMain.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                activity.startActivity(returnToMain);
+            }
         });
 
         settingsBtn.setOnClickListener(new View.OnClickListener() {
@@ -1074,6 +1098,10 @@ public class MapActions implements NavigatorListener, MapHandlerListener {
 
     private void log(String str) {
         Log.i(MapActions.class.getName(), str);
+    }
+
+    public GroupDialog getGroupDialog() {
+        return groupDialog;
     }
 
 }

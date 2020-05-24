@@ -3,6 +3,7 @@ package com.junjunguo.pocketmaps.activities;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
@@ -16,6 +17,8 @@ import android.widget.Toast;
 
 import com.junjunguo.pocketmaps.R;
 import com.junjunguo.pocketmaps.fragments.Dialog;
+import com.junjunguo.pocketmaps.fragments.GroupDialog;
+import com.junjunguo.pocketmaps.group.GroupHandler;
 import com.junjunguo.pocketmaps.map.Destination;
 import com.junjunguo.pocketmaps.map.MapHandler;
 import com.junjunguo.pocketmaps.map.Navigator;
@@ -30,6 +33,10 @@ import org.oscim.android.MapView;
 import org.oscim.core.GeoPoint;
 
 import java.io.File;
+import java.security.acl.Group;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * This file is part of PocketMaps
@@ -37,6 +44,9 @@ import java.io.File;
  * Created by GuoJunjun <junjunguo.com> on July 04, 2015.
  */
 public class MapActivity extends Activity implements LocationListener {
+
+    private final static String TAG = "MAP_ACTIVITY";
+
     enum PermissionStatus { Enabled, Disabled, Requesting, Unknown };
     private MapView mapView;
     private static Location mCurrentLocation;
@@ -46,6 +56,7 @@ public class MapActivity extends Activity implements LocationListener {
     private KalmanLocationManager kalmanLocationManager;
     private PermissionStatus locationListenerStatus = PermissionStatus.Unknown;
     private String lastProvider;
+    private static SharedPreferences sharedPreferences;
     /**
      * Request location updates with the highest possible frequency on gps.
      * Typically, this means one update per second for gps.
@@ -95,6 +106,21 @@ public class MapActivity extends Activity implements LocationListener {
         checkGpsAvailability();
         ensureLastLocationInit();
         updateCurrentLocation(null);
+
+        // Restore group state
+        GroupDialog groupDialog = mapActions.getGroupDialog();
+        sharedPreferences = getSharedPreferences("RideAlongPreferences", Context.MODE_PRIVATE);
+        groupDialog.setPreferences(sharedPreferences);
+
+        boolean isGrouped = sharedPreferences.getBoolean("isGrouped", false);
+        if(isGrouped) {
+            GroupHandler.setIsGrouped(true);
+            GroupHandler.setGroupUID(sharedPreferences.getString("groupUID", ""));
+            if(sharedPreferences.getBoolean("isLeader", false)) {
+                GroupHandler.setLeaderState(GroupHandler.LeaderStateEnum.LEADER);
+            }
+            groupDialog.restoreGroupStatus(GroupHandler.getGroupUID());
+        }
     }
     
     public void ensureLocationListener(boolean showMsgEverytime)
@@ -191,11 +217,6 @@ public class MapActivity extends Activity implements LocationListener {
         }
         if (mCurrentLocation != null) {
 
-            /**
-             * Below
-             */
-            GeoPoint tempGeoPoint = new GeoPoint(mCurrentLocation.getLatitude()+0.5, mCurrentLocation.getLongitude()+0.5);
-
             GeoPoint mcLatLong = new GeoPoint(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
             if (Tracking.getTracking(getApplicationContext()).isTracking()) {
                 MapHandler.getMapHandler().addTrackPoint(this, mcLatLong);
@@ -207,13 +228,70 @@ public class MapActivity extends Activity implements LocationListener {
             }
             MapHandler.getMapHandler().setCustomPoint(this, mcLatLong);
 
-            //here again
-            MapHandler.getMapHandler().setCustomPoint(this, tempGeoPoint);
-
             mapActions.showPositionBtn.setImageResource(R.drawable.ic_my_location_white_24dp);
         } else {
             mapActions.showPositionBtn.setImageResource(R.drawable.ic_location_searching_white_24dp);
         }
+    }
+
+    /**
+     * RideAlong: Update the location of group members.
+     */
+    private void updateGroupLocations() {
+        if(GroupHandler.getIsGrouped() == false) {return;}
+
+        if(GroupHandler.getLeaderState() == GroupHandler.LeaderStateEnum.LEADER)
+        {
+            // TODO Post destination OR change to only post destination when updated.
+            //GroupHandler.setLocalDestination(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
+            //GroupHandler.postDestination(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
+        }
+
+        GroupHandler.getGroupData();
+        GroupHandler.postLocation(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
+
+        // TODO Change this. Entire GroupHandler class needs to be rewritten to non-static.
+        // Currently only way to fix problems is to get destination before locations updates groupData.
+        // Why did I make it all static!!!
+        ArrayList<Double> latLong;
+        try {
+            latLong = GroupHandler.getDestination();
+        } catch (Exception e) {
+            return;
+        }
+
+        Map<String, ArrayList> locations = new HashMap<>();
+        locations = GroupHandler.getLocations();
+
+        if(locations == null) {return;} //Terrible fix but should work for now.
+
+        for (ArrayList i : locations.values())
+        {
+            GeoPoint geoPoint = new GeoPoint((double) i.get(0), (double) i.get(1));
+            MapHandler.getMapHandler().setRideAlongPoint(this, (GeoPoint) geoPoint);
+        }
+
+        if (latLong == null) {return;} //Again, terrible fix...
+        //else if (Destination.getDestination().getEndPoint().getLatitude() == latLong.get(0) && Destination.getDestination().getEndPoint().getLongitude() == latLong.get(1)) {return;}
+        // The above ^ else if does not work. Find a way to check for destination duplicate.
+
+        // 1. Set Start/End Points
+        GeoPoint destination = new GeoPoint((Double) latLong.get(0), (double) latLong.get(1));
+        Destination.getDestination().setEndPoint(destination, "GroupDestination");
+        GeoPoint userLocation = new GeoPoint(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
+        Destination.getDestination().setStartPoint(userLocation, "UserLocation");
+
+        // 2. Set Start/End Markers
+        MapHandler.getMapHandler().setStartEndPoint(this, userLocation, true, false);
+        MapHandler.getMapHandler().setStartEndPoint(this, destination, false, true);
+
+        // 3. Set travel mode
+        Navigator.getNavigator().setTravelModeArrayIndex(2);
+
+        // 4. Navigation start
+        //Navigator.getNavigator().setNaviStart(this, true);
+        // This line causes a crash
+
     }
     
     public MapActions getMapActions() { return mapActions; }
@@ -271,6 +349,7 @@ public class MapActivity extends Activity implements LocationListener {
         Destination.getDestination().setStartPoint(null, null);
         Destination.getDestination().setEndPoint(null, null);
         System.gc();
+        // TODO handle leaving groups etc....
     }
 
     /**
@@ -312,6 +391,7 @@ public class MapActivity extends Activity implements LocationListener {
      */
     @Override public void onLocationChanged(Location location) {
         updateCurrentLocation(location);
+        updateGroupLocations();
     }
 
     @Override public void onStatusChanged(String provider, int status, Bundle extras) {
@@ -342,5 +422,9 @@ public class MapActivity extends Activity implements LocationListener {
         Toast.makeText(getBaseContext(), str, Toast.LENGTH_SHORT).show();
       }
       catch (Exception e) { e.printStackTrace(); }
+    }
+
+    public static SharedPreferences getSharedPreferences() {
+        return sharedPreferences;
     }
 }
