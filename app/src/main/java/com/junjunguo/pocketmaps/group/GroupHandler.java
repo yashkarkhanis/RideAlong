@@ -1,7 +1,9 @@
 package com.junjunguo.pocketmaps.group;
 
+import android.app.Activity;
 import android.util.Log;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
@@ -16,6 +18,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.junjunguo.pocketmaps.R;
+import com.junjunguo.pocketmaps.activities.MapActivity;
 import com.junjunguo.pocketmaps.model.GroupMember;
 
 import org.oscim.core.GeoPoint;
@@ -49,7 +52,6 @@ public class GroupHandler {
      * Called by MapActivity.updateCurrentLocation()
      * Retrieve relevant group document from firebase so it can be easily accessed.
      */
-
     public static void getGroupData() {
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         DocumentReference docRef = db.collection("Groups").document(groupUID);
@@ -166,7 +168,7 @@ public class GroupHandler {
      * Remove member information from firebase.
      * @return true if successful, false otherwise.
      */
-    public boolean leaveGroup() {
+    public static boolean leaveGroup() {
         // TODO remove user's location field from firebase
         // TODO remove map markers
 
@@ -191,11 +193,9 @@ public class GroupHandler {
 
     /**
      * Delete all information regarding group from firebase.
-     * Somehow notify other members.
      */
-    public void deleteGroup() {
-        //TODO remove map markers
-
+    public static void deleteGroup() {
+        // TODO Remove map markers
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         db.collection("Groups").document(groupUID)
                 .delete()

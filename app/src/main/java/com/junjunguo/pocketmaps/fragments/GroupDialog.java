@@ -13,10 +13,14 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.GeoPoint;
 import com.junjunguo.pocketmaps.R;
@@ -48,18 +52,18 @@ public class GroupDialog {
 
     public GroupDialog (Activity activity) {
         this.activity = activity;
+        //sharedPreferences = MapActivity.getSharedPreferences();
         groupCreateVP = (ViewGroup) activity.findViewById(R.id.group_create_layout);
         groupJoinVP = (ViewGroup) activity.findViewById(R.id.group_join_layout);
         initJoinBtn();
+        initCreateBtn();
     }
 
     public void showGroupDialog (final ViewGroup calledFromVP, final int target) {
         if(target == RA_GROUP_CREATE) {
-            initCreateBtn();
             initCancelBtn(groupCreateVP, calledFromVP, RA_GROUP_CREATE);
             groupCreateVP.setVisibility(View.VISIBLE);
         } else if (target == RA_GROUP_JOIN) {
-            //initJoinBtn();
             initCancelBtn(groupJoinVP, calledFromVP, RA_GROUP_JOIN);
             groupJoinVP.setVisibility(View.VISIBLE);
         }
@@ -142,6 +146,7 @@ public class GroupDialog {
                         TextView uid = (TextView) activity.findViewById(R.id.gp_id_field);
                         uid.setText(groupUID);
                         disableCreateBtn();
+                        disableJoinBtn();
                         GroupHandler.setIsGrouped(true);
                         GroupHandler.setLeaderState(GroupHandler.LeaderStateEnum.LEADER);
                         GroupHandler.setGroupUID(groupUID);
@@ -166,13 +171,13 @@ public class GroupDialog {
 
     private void joinGroupWithUID (String restoreUID) {
         TextView uidTextView = (TextView) activity.findViewById(R.id.gj_id_field);
-        Log.w(TAG, restoreUID);
+        //Log.w(TAG, restoreUID);
         if(restoreUID != null) {
             uidTextView.setText(restoreUID);
         }
-        else if (restoreUID.equals("BLANK")) {
-            return;
-        }
+        //else if (restoreUID == null || restoreUID.equals("BLANK")) {
+        //    return;
+        //}
 
         if (uidTextView.getText() != null) {
             final String groupUID = uidTextView.getText().toString();
@@ -197,6 +202,7 @@ public class GroupDialog {
                                 uid.setEnabled(false);
                                 uid.setText(groupUID);
                                 disableJoinBtn();
+                                disableCreateBtn();
                                 GroupHandler.setIsGrouped(true);
                                 GroupHandler.setLeaderState(GroupHandler.LeaderStateEnum.NOT_LEADER);
                                 GroupHandler.setGroupUID(groupUID);
@@ -223,9 +229,99 @@ public class GroupDialog {
 
     public void restoreGroupStatus(String restoreUID) {
         joinGroupWithUID(restoreUID);
+        disableCreateBtn();
     }
 
     public void setPreferences(SharedPreferences sharedPreferences) {
         this.sharedPreferences = sharedPreferences;
+    }
+
+    public void deleteGroup() {
+        // TODO Remove map markers
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+        db.collection("Groups").document(GroupHandler.getGroupUID())
+                .delete()
+                .addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void aVoid) {
+                        Log.d(TAG, "DocumentSnapshot successfully deleted!");
+                        Toast.makeText(activity, "Group deleted.", Toast.LENGTH_SHORT).show();
+
+                        GroupHandler.setIsGrouped(false);
+                        GroupHandler.setLeaderState(GroupHandler.LeaderStateEnum.NOT_GROUPED);
+
+                        SharedPreferences.Editor editor = sharedPreferences.edit();
+                        editor.clear();
+                        editor.commit();
+
+                        createBtn.setEnabled(true);
+                        joinBtn.setEnabled(true);
+
+                        createBtn.setBackgroundColor(activity.getResources().getColor(R.color.ridealong_blue));
+                        joinBtn.setBackgroundColor(activity.getResources().getColor(R.color.ridealong_blue));
+
+                        TextView create_uid = (TextView) activity.findViewById(R.id.gp_id_field);
+                        TextView join_uid = (TextView) activity.findViewById(R.id.gj_id_field);
+
+                        create_uid.setText("");
+                        join_uid.setText("");
+
+                        join_uid.setEnabled(true);
+                    }
+                })
+                .addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Log.w(TAG, "Error deleting document", e);
+                        Toast.makeText(activity, "Failed to delete group.", Toast.LENGTH_SHORT).show();
+                    }
+                });
+    }
+
+    public void leaveGroup() {
+        // TODO remove map markers
+
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        DocumentReference docRef = db.collection("Groups").document(GroupHandler.getGroupUID());
+
+        // Remove the user location field from the document
+        Map<String,Object> updates = new HashMap<>();
+        updates.put(user.getUid(), FieldValue.delete());
+
+        docRef.update(updates).addOnSuccessListener(new OnSuccessListener<Void>() {
+            @Override
+            public void onSuccess(Void aVoid) {
+                Log.d(TAG, "Field successfully deleted!");
+                Toast.makeText(activity, "Group left.", Toast.LENGTH_SHORT).show();
+
+                GroupHandler.setIsGrouped(false);
+                GroupHandler.setLeaderState(GroupHandler.LeaderStateEnum.NOT_GROUPED);
+
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.clear();
+                editor.commit();
+
+                createBtn.setEnabled(true);
+                joinBtn.setEnabled(true);
+
+                createBtn.setBackgroundColor(activity.getResources().getColor(R.color.ridealong_blue));
+                joinBtn.setBackgroundColor(activity.getResources().getColor(R.color.ridealong_blue));
+
+                TextView create_uid = (TextView) activity.findViewById(R.id.gp_id_field);
+                TextView join_uid = (TextView) activity.findViewById(R.id.gj_id_field);
+
+                create_uid.setText("");
+                join_uid.setText("");
+
+                join_uid.setEnabled(true);
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Log.w(TAG, "Error deleting document", e);
+                        Toast.makeText(activity, "Failed to leave group.", Toast.LENGTH_SHORT).show();
+                    }
+                });
     }
 }

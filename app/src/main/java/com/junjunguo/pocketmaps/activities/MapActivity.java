@@ -56,6 +56,7 @@ public class MapActivity extends Activity implements LocationListener {
     private KalmanLocationManager kalmanLocationManager;
     private PermissionStatus locationListenerStatus = PermissionStatus.Unknown;
     private String lastProvider;
+    private static SharedPreferences sharedPreferences;
     /**
      * Request location updates with the highest possible frequency on gps.
      * Typically, this means one update per second for gps.
@@ -108,13 +109,13 @@ public class MapActivity extends Activity implements LocationListener {
 
         // Restore group state
         GroupDialog groupDialog = mapActions.getGroupDialog();
-        SharedPreferences sharedPreferences = getSharedPreferences("RideAlongPreferences", Context.MODE_PRIVATE);
+        sharedPreferences = getSharedPreferences("RideAlongPreferences", Context.MODE_PRIVATE);
         groupDialog.setPreferences(sharedPreferences);
 
         boolean isGrouped = sharedPreferences.getBoolean("isGrouped", false);
         if(isGrouped) {
             GroupHandler.setIsGrouped(true);
-            GroupHandler.setGroupUID(sharedPreferences.getString("groupUID", "BLANK"));
+            GroupHandler.setGroupUID(sharedPreferences.getString("groupUID", ""));
             if(sharedPreferences.getBoolean("isLeader", false)) {
                 GroupHandler.setLeaderState(GroupHandler.LeaderStateEnum.LEADER);
             }
@@ -423,22 +424,7 @@ public class MapActivity extends Activity implements LocationListener {
       catch (Exception e) { e.printStackTrace(); }
     }
 
-    @Override
-    public void onSaveInstanceState(Bundle savedInstanceState) {
-        super.onSaveInstanceState(savedInstanceState);
-        if(GroupHandler.getIsGrouped()) {
-            savedInstanceState.putBoolean("isGrouped", true);
-            savedInstanceState.putString("groupUID", GroupHandler.getGroupUID());
-            if(GroupHandler.getLeaderState() == GroupHandler.LeaderStateEnum.LEADER) {
-                savedInstanceState.putBoolean("isLeader", true);
-            }
-            else {savedInstanceState.putBoolean("isLeader", false);}
-        }
-        else {
-            savedInstanceState.putBoolean("isGrouped", false);
-            savedInstanceState.putString("groupUID", "BLANK");
-            savedInstanceState.putBoolean("isLeader", false);
-        }
-
+    public static SharedPreferences getSharedPreferences() {
+        return sharedPreferences;
     }
 }
